@@ -1,0 +1,64 @@
+{
+  "es_demostracion": false,
+  "nota": "Los hallazgos, razones y mensajes clave de este archivo son reales y sintetizan datos que ya están sourced en otras secciones del sitio (Panorama de la inversión, Derechos, Programas presupuestarios, Inversión y resultados sociales) o que se verificaron directamente con las fuentes indicadas en cada elemento.",
+  "hallazgos_principales": [
+    {
+      "id": "hallazgo-1",
+      "texto": "El presupuesto nominal para niñez y adolescencia creció de 831,100 a 1,100,000 millones de pesos entre 2022 y 2026, pero como porcentaje del PIB bajó de 3.7% en 2015 a 2.9% en 2026, y como porcentaje del Presupuesto de Egresos de la Federación bajó de 15.04% en 2015 a 10.8% en 2026. El presupuesto crece en pesos, pero pierde peso relativo dentro de la economía y del gasto público. Ver Panorama de la inversión para el detalle año por año.",
+      "etiqueta_evidencia": "descriptiva",
+      "fuente_id": "fte-redim-2026",
+      "anio": 2026,
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado"
+    },
+    {
+      "id": "hallazgo-2",
+      "texto": "Del gasto en desarrollo social destinado a NNA (promedio 2016-2023), 75.8% se concentra en el sector educativo, 17.8% en salud y solo 6.3% en protección social; para 2025, un informe distinto (UNICEF/SIPINNA, SITAN 2026) reporta que la participación de educación subió a 88.7%, mientras la de salud bajó a 7.0% y la de protección social a 3.3%. Al mismo tiempo, programas específicos de salud infantil tuvieron caídas fuertes en años recientes: el programa de vacunación cayó -53.7% entre 2022 y 2023, tras un salto atípico en 2022 por la incorporación de vacunas COVID-19. Ver Derechos (composición por sector) y Programas presupuestarios.",
+      "etiqueta_evidencia": "descriptiva",
+      "fuente_id": "fte-unicef-2023",
+      "anio": 2023,
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado"
+    },
+    {
+      "id": "hallazgo-3",
+      "texto": "La pobreza multidimensional en NNA bajó de 45.8% (2022) a 38.7% (2024), en el mismo periodo en que la inversión nominal en NNA aumentó. Ambas series se movieron en la misma dirección, pero este micrositio no cuenta con un análisis estadístico que permita afirmar que la inversión causó la reducción de la pobreza: la pobreza depende de muchos otros factores (empleo, inflación, transferencias no etiquetadas para NNA, etc.). Ver Inversión y resultados sociales para el detalle y la etiqueta de nivel de evidencia de esta observación.",
+      "etiqueta_evidencia": "descriptiva",
+      "fuente_id": "fte-redim-balance-2025",
+      "anio": 2024,
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado"
+    }
+  ],
+  "por_que_invertir": [
+    {
+      "id": "razon-1",
+      "titulo": "Es una obligación establecida en la Constitución y en tratados internacionales",
+      "texto": "El artículo 4° de la Constitución mexicana y la Ley General de los Derechos de Niñas, Niños y Adolescentes (2014) reconocen a niñas, niños y adolescentes como titulares de derechos, con el interés superior de la niñez como principio rector. México también es parte de la Convención sobre los Derechos del Niño, que en su artículo 4° obliga a los Estados a adoptar todas las medidas administrativas, legislativas y de otra índole, hasta el máximo de los recursos disponibles, para dar efectividad a los derechos reconocidos en ella. Ver la sección Derechos para el detalle de los cuatro principios generales."
+    },
+    {
+      "id": "razon-2",
+      "titulo": "Efecto en el desarrollo presente y futuro del país",
+      "texto": "La evidencia académica (Heckman, 2016, citado en el boletín del CIEP referenciado abajo) documenta que la inversión en el desarrollo de habilidades durante la primera infancia genera mayores retornos económicos y sociales que las intervenciones en etapas posteriores de la vida. Organismos como ONU Mujeres, UNICEF y CEPAL recomiendan destinar al menos 1.16% del PIB a la primera infancia; en el Presupuesto de Egresos de la Federación 2025 se identificaron 24,200 millones de pesos para esta población, equivalentes a solo 0.07% del PIB, muy por debajo de la meta recomendada.",
+      "fuente_id": "fte-ciep-2025",
+      "anio": 2025,
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado"
+    },
+    {
+      "id": "razon-3",
+      "titulo": "Población que representa una proporción significativa del país",
+      "texto": "Según el Censo de Población y Vivienda 2020 del INEGI, había 38.2 millones de niñas, niños y adolescentes (0-17 años) en México, equivalentes a 30.4% de la población total del país: casi 1 de cada 3 personas en México es NNA.",
+      "fuente_id": "fte-redim-balance-2025",
+      "anio": 2020,
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado"
+    }
+  ],
+  "mensajes_clave": [
+    "México destinó 1,100,000 millones de pesos a niñez y adolescencia en 2026 (10.8% del presupuesto federal), pero esa proporción ha caído desde 15.04% en 2015.",
+    "Casi 1 de cada 3 personas en México es niña, niño o adolescente (30.4% de la población, INEGI 2020), pero la inversión pública en primera infancia es de apenas 0.07% del PIB, frente a la meta recomendada de 1.16% (CIEP, UNICEF, CEPAL, ONU Mujeres).",
+    "La pobreza multidimensional en NNA bajó de 45.8% en 2022 a 38.7% en 2024 (INEGI/CONEVAL), aunque este micrositio no afirma que la inversión pública sea la causa de esa mejora.",
+    "El programa de vacunación infantil perdió más de la mitad de su presupuesto entre 2022 y 2023 (-53.7%), después de un año atípico en el que se incluyeron las vacunas contra COVID-19."
+  ]
+}

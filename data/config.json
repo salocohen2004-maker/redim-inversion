@@ -1,0 +1,94 @@
+{
+  "es_demostracion": false,
+  "sitio": {
+    "titulo_proyecto": "Inversión en los Derechos de la Niñez y la Adolescencia en México",
+    "subtitulo": "Investigación sobre inversión pública y su relación con indicadores sociales",
+    "descripcion_breve": "Micrositio interno de trabajo elaborado como proyecto de servicio social en la Red por los Derechos de la Infancia en México (REDIM). Reúne, en un solo lugar, el avance de la investigación sobre el presupuesto destinado a niñas, niños y adolescentes (NNA) y su posible relación con distintos indicadores sociales.",
+    "fecha_actualizacion": "2026-09-22",
+    "leyenda_prototipo": "Este micrositio es un prototipo académico interno, elaborado en el marco de un servicio social. No constituye una publicación oficial de REDIM y todo su contenido está sujeto a revisión.",
+    "aviso_demostracion": "Todas las cifras de este micrositio provienen de fuentes reales y citadas (ver Biblioteca de fuentes), pero no todas tienen el mismo grado de certeza. Cada cifra, tarjeta y gráfica indica su propio estado: 'Validado' (dato oficial o confirmado por más de una fuente independiente), 'En revisión' (dato real pero calculado con una estimación, por ejemplo de inflación proyectada, o con una definición que puede no ser exactamente comparable año con año) o 'Pendiente' (dato que se buscó pero no se encontró publicado). Revisa siempre esa etiqueta antes de citar cualquier cifra. Este micrositio sigue siendo un prototipo académico interno, no una publicación oficial de REDIM."
+  },
+  "indicadores_destacados": [
+    {
+      "id": "ind-dest-1",
+      "etiqueta": "Inversión total en NNA (último año disponible)",
+      "valor": 1100000,
+      "unidad": "millones de pesos (MXN)",
+      "anio": 2026,
+      "variacion_pct": 8.0,
+      "estado_validacion": "en_revision",
+      "es_demostracion": false,
+      "fuente": "REDIM, Presupuesto en la infancia y la adolescencia en México 2026",
+      "url": "https://blog.derechosinfancia.org.mx/2025/12/15/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2026/",
+      "fecha_consulta": "2026-09-22"
+    },
+    {
+      "id": "ind-dest-2",
+      "etiqueta": "Porcentaje del PIB destinado a NNA",
+      "valor": 2.9,
+      "unidad": "% del PIB",
+      "anio": 2026,
+      "variacion_pct": null,
+      "estado_validacion": "en_revision",
+      "es_demostracion": false,
+      "fuente": "REDIM, Presupuesto en la infancia y la adolescencia en México 2026 (% con PIB base INEGI 2015-2024, aún no definitivo para 2025-2026)",
+      "url": "https://blog.derechosinfancia.org.mx/2025/12/15/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2026/",
+      "fecha_consulta": "2026-09-22"
+    },
+    {
+      "id": "ind-dest-3",
+      "etiqueta": "Inversión por niña, niño o adolescente (último año disponible)",
+      "valor": 22985,
+      "unidad": "pesos (MXN) por NNA al año",
+      "anio": 2023,
+      "variacion_pct": null,
+      "estado_validacion": "validado",
+      "es_demostracion": false,
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+      "fecha_consulta": "2026-09-22"
+    },
+    {
+      "id": "ind-dest-4",
+      "etiqueta": "Programas presupuestarios identificados en este micrositio",
+      "valor": 13,
+      "unidad": "programas (2012-2023)",
+      "anio": null,
+      "variacion_pct": null,
+      "estado_validacion": "validado",
+      "es_demostracion": false,
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+      "fecha_consulta": "2026-09-22"
+    }
+  ],
+  "taxonomia_derechos_nota": "Clasificación jerárquica (grupo_derecho > derecho_especifico > sector > programa) pendiente de validación metodológica por REDIM. Los cuatro principios generales de la Convención sobre los Derechos del Niño (no discriminación, interés superior de la niñez, derecho a la vida/supervivencia/desarrollo, y participación) son transversales: no son partidas de gasto y un mismo programa presupuestario puede contribuir a más de uno a la vez. Por eso no se les asignan montos, porcentajes ni gráficas presupuestarias mientras no exista una metodología validada para hacerlo sin incurrir en doble contabilización. 'Educación', 'Salud', 'Alimentación' y 'Protección social' son sectores de gasto, categoría distinta a la de los principios generales.",
+  "categorias_derechos": [
+    { "id": "no_discriminacion", "nombre": "No discriminación", "descripcion": "Todos los derechos de la Convención se aplican a cada niña, niño y adolescente sin distinción alguna, ya sea por su raza, sexo, idioma, religión, origen, discapacidad, condición económica o cualquier otra condición propia o de sus padres o tutores.", "color": "#1F5C4E", "grupo_derecho": "principio_general", "derecho_especifico": null, "sector": null, "clasificacion_pendiente_validacion": true },
+    { "id": "interes_superior", "nombre": "Interés superior de la niñez", "descripcion": "En todas las medidas que tomen instituciones públicas o privadas, tribunales, autoridades administrativas u órganos legislativos respecto a niñas, niños y adolescentes, una consideración primordial debe ser su interés superior.", "color": "#2E6F8E", "grupo_derecho": "principio_general", "derecho_especifico": null, "sector": null, "clasificacion_pendiente_validacion": true },
+    { "id": "vida_supervivencia_desarrollo", "nombre": "Derecho a la vida, supervivencia y desarrollo", "descripcion": "Toda niña, niño y adolescente tiene el derecho intrínseco a la vida; el Estado debe garantizar, en la máxima medida posible, su supervivencia y su desarrollo integral (físico, mental, espiritual, moral y social).", "color": "#7A4B8A", "grupo_derecho": "principio_general", "derecho_especifico": null, "sector": null, "clasificacion_pendiente_validacion": true },
+    { "id": "participacion_respeto", "nombre": "Participación y respeto a las opiniones de niñas, niños y adolescentes", "descripcion": "Niñas, niños y adolescentes tienen derecho a expresar su opinión libremente en todos los asuntos que les afectan, y esa opinión debe tomarse en cuenta de acuerdo con su edad y madurez.", "color": "#A05A2C", "grupo_derecho": "principio_general", "derecho_especifico": null, "sector": null, "clasificacion_pendiente_validacion": true },
+    { "id": "educacion", "nombre": "Educación", "descripcion": "Acceso, permanencia y calidad de la educación en todos sus niveles.", "color": "#265D8E", "grupo_derecho": "sector", "derecho_especifico": null, "sector": null, "clasificacion_pendiente_validacion": true },
+    { "id": "salud", "nombre": "Salud", "descripcion": "Acceso a servicios de salud preventivos, curativos y de rehabilitación.", "color": "#3A7A5E", "grupo_derecho": "sector", "derecho_especifico": null, "sector": null, "clasificacion_pendiente_validacion": true },
+    { "id": "alimentacion", "nombre": "Alimentación", "descripcion": "Derecho a una alimentación nutritiva, suficiente y de calidad.", "color": "#8A6D1F", "grupo_derecho": "sector", "derecho_especifico": null, "sector": null, "clasificacion_pendiente_validacion": true },
+    { "id": "proteccion_social", "nombre": "Protección social", "descripcion": "Sistemas de protección social y asistencia orientados a NNA en situación de vulnerabilidad.", "color": "#5B5F97", "grupo_derecho": "sector", "derecho_especifico": null, "sector": null, "clasificacion_pendiente_validacion": true }
+  ],
+  "navegacion": [
+    { "id": "portada", "etiqueta": "Inicio" },
+    { "id": "presupuesto", "etiqueta": "Inversión", "submenu": [
+      { "id": "programas", "etiqueta": "Programas presupuestarios" }
+    ] },
+    { "id": "derechos", "etiqueta": "Derechos" },
+    { "id": "impacto", "etiqueta": "Inversión y resultados sociales" },
+    { "id": null, "etiqueta": "Hallazgos", "submenu": [
+      { "id": "resumen", "etiqueta": "Resumen ejecutivo" },
+      { "id": "problemas", "etiqueta": "Problemas y brechas" },
+      { "id": "soluciones", "etiqueta": "Soluciones" }
+    ] },
+    { "id": null, "etiqueta": "Fuentes y metodología", "submenu": [
+      { "id": "metodologia", "etiqueta": "Metodología" },
+      { "id": "fuentes", "etiqueta": "Biblioteca de fuentes" },
+      { "id": "glosario", "etiqueta": "Glosario" }
+    ] }
+  ]
+}

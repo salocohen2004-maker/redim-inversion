@@ -1,0 +1,749 @@
+/* ==========================================================================
+   Micrositio REDIM (prototipo) — hojas de estilo
+   Diseño institucional, sobrio. Sin frameworks externos.
+   ========================================================================== */
+
+:root {
+  /* Paleta institucional */
+  --color-bg: #F6F6F3;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #EFEFEA;
+  --color-text: #1B1B1A;
+  --color-text-secondary: #4A4A46;
+  --color-text-muted: #6B6B66;
+  --color-border: #D8D8D1;
+  --color-border-strong: #B7B7AE;
+
+  --color-primary: #1F4B43;
+  --color-primary-dark: #133029;
+  --color-primary-light: #E4EDE9;
+
+  --color-accent: #8A4B22;
+  --color-accent-light: #F3E7DA;
+
+  --color-positive: #216B4A;
+  --color-positive-bg: #E4F1EA;
+  --color-negative: #8C2E2E;
+  --color-negative-bg: #F6E6E4;
+
+  --color-focus: #0B4F8A;
+
+  /* Estados de trazabilidad */
+  --color-validado: #1F6B3B;
+  --color-validado-bg: #E3F1E7;
+  --color-revision: #8A6D1F;
+  --color-revision-bg: #F5EED9;
+  --color-pendiente: #55575C;
+  --color-pendiente-bg: #E9E9E6;
+  --color-demostracion: #5B3A8A;
+  --color-demostracion-bg: #EFE7F5;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+
+  --radius: 6px;
+  --shadow-sm: 0 1px 2px rgba(20, 20, 15, 0.08);
+  --shadow-md: 0 2px 10px rgba(20, 20, 15, 0.10);
+
+  --max-width: 1180px;
+  --transition-fast: 120ms ease;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; overflow-anchor: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overflow-anchor: none;
+}
+
+h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 700; line-height: 1.25; color: var(--color-primary-dark); }
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.5rem; margin-top: 0; }
+h3 { font-size: 1.15rem; margin-top: 0; }
+p { margin: 0 0 1em; }
+a { color: var(--color-primary); }
+a:hover { color: var(--color-primary-dark); }
+
+ul, ol { padding-left: 1.3em; }
+
+:focus { outline: none; }
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+/* Los encabezados reciben foco por script al cambiar de sección (para
+   lectores de pantalla), no por navegación de teclado: no deben mostrar
+   un anillo de foco permanente. */
+[tabindex="-1"]:focus,
+[tabindex="-1"]:focus-visible {
+  outline: none;
+}
+
+/* Enlace para saltar al contenido */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--color-primary-dark);
+  color: #fff;
+  padding: 0.75em 1.2em;
+  z-index: 200;
+  border-radius: 0 0 var(--radius) 0;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+/* ==========================================================================
+   Avisos globales
+   ========================================================================== */
+.aviso-banner {
+  background: var(--color-primary-dark);
+  color: #fff;
+  font-size: 0.78rem;
+  text-align: center;
+  padding: 0.35em 1em;
+  line-height: 1.4;
+}
+.aviso-banner strong { font-weight: 700; }
+
+.aviso-demostracion {
+  background: var(--color-demostracion-bg);
+  color: var(--color-demostracion);
+  border: 1px solid var(--color-demostracion);
+  border-radius: var(--radius);
+  padding: 0.9em 1.1em;
+  font-size: 0.92rem;
+  margin: 0 0 1.5em;
+  display: flex;
+  gap: 0.6em;
+  align-items: flex-start;
+}
+.aviso-demostracion .icono { font-weight: 700; }
+
+/* ==========================================================================
+   Encabezado y navegación
+   ========================================================================== */
+.sitio-header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.5em 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+.marca {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  text-decoration: none;
+  color: var(--color-primary-dark);
+}
+.marca-logo {
+  height: 34px;
+  width: auto;
+  flex-shrink: 0;
+}
+.marca-texto { display: flex; flex-direction: column; }
+.marca-texto .marca-org { font-weight: 700; font-size: 0.88rem; }
+.marca-texto .marca-proyecto { font-size: 0.7rem; color: var(--color-text-secondary); }
+
+.nav-toggle {
+  display: none;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.5em 0.8em;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.sitio-nav { }
+.sitio-nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1em;
+}
+.sitio-nav > ul > li {
+  position: relative;
+}
+.sitio-nav a,
+.sitio-nav .nav-boton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  padding: 0.45em 0.6em;
+  border-radius: var(--radius);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: 0.84rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.sitio-nav a:hover,
+.sitio-nav .nav-boton:hover { background: var(--color-primary-light); color: var(--color-primary-dark); }
+.sitio-nav a[aria-current="page"] {
+  background: var(--color-primary);
+  color: #fff;
+}
+.nav-boton .caret,
+.nav-caret .caret { font-size: 0.6rem; transition: transform var(--transition-fast); }
+.nav-item-tiene-submenu.submenu-abierto .caret { transform: rotate(180deg); }
+
+/* Elementos con submenú: enlace directo (o botón, si no tiene página propia)
+   más un botón separado para abrir/cerrar el submenú. */
+.nav-item-fila { display: flex; align-items: center; }
+.nav-item-fila > a,
+.nav-item-fila > .nav-boton { border-radius: var(--radius) 0 0 var(--radius); }
+.nav-caret {
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 0.45em 0.4em;
+  border-left: 1px solid var(--color-border);
+}
+
+.submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0.35em;
+  display: none;
+}
+.submenu a {
+  display: block;
+  padding: 0.5em 0.7em;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: normal;
+  border-radius: var(--radius);
+}
+.nav-item-tiene-submenu.submenu-abierto .submenu { display: block; }
+
+@media (min-width: 841px) {
+  .nav-item-tiene-submenu { position: relative; }
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-md);
+    z-index: 110;
+  }
+  .nav-item-tiene-submenu:hover .submenu { display: block; }
+}
+
+@media (max-width: 840px) {
+  .nav-toggle { display: inline-block; }
+  .header-inner { flex-wrap: wrap; }
+  .sitio-nav {
+    display: none;
+    flex-basis: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.2em 0.9em;
+  }
+  .sitio-nav.abierto { display: block; }
+  .sitio-nav > ul { flex-direction: column; }
+  .sitio-nav > ul > li { width: 100%; }
+  .nav-item-fila { width: 100%; }
+  .nav-item-fila > a,
+  .nav-item-fila > .nav-boton { flex: 1; }
+  .submenu {
+    border-left: 2px solid var(--color-border);
+    margin: 0 0 0.3em 0.9em;
+  }
+}
+
+/* ==========================================================================
+   Layout general
+   ========================================================================== */
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.6em 1.2em 4em;
+  scroll-margin-top: 90px;
+}
+.seccion-header { margin-bottom: 1.4em; }
+.seccion-header p.intro { color: var(--color-text-secondary); max-width: 70ch; }
+
+.sitio-footer {
+  background: var(--color-primary-dark);
+  color: #E7ECE9;
+  padding: 1em 1.2em;
+  font-size: 0.78rem;
+}
+.sitio-footer .footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em 2em;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.sitio-footer p { margin: 0 0 0.2em; }
+.sitio-footer .footer-item { max-width: 34ch; }
+.sitio-footer .footer-item strong { display: block; font-size: 0.8rem; margin-bottom: 0.15em; }
+.sitio-footer a { color: #D8E4DF; }
+
+/* ==========================================================================
+   Tarjetas / bloques
+   ========================================================================== */
+.tarjetas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1em;
+}
+.tarjeta {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.1em 1.2em;
+  box-shadow: var(--shadow-sm);
+}
+.tarjeta h3 { margin-bottom: 0.4em; font-size: 1rem; }
+
+.indicador-tarjeta {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius);
+  padding: 1em 1.1em;
+}
+.indicador-tarjeta .etiqueta { font-size: 0.8rem; color: var(--color-text-secondary); margin-bottom: 0.3em; }
+.indicador-tarjeta .valor { font-family: var(--font-serif); font-size: 1.7rem; font-weight: 700; color: var(--color-primary-dark); }
+.indicador-tarjeta .unidad { font-size: 0.78rem; color: var(--color-text-muted); }
+.indicador-tarjeta .variacion { font-size: 0.82rem; margin-top: 0.4em; display: inline-block; }
+.variacion.positiva { color: var(--color-positive); }
+.variacion.negativa { color: var(--color-negative); }
+
+.bloque-explicativo {
+  background: var(--color-surface-alt);
+  border-radius: var(--radius);
+  padding: 1.1em 1.3em;
+  margin: 1.2em 0;
+  border: 1px solid var(--color-border);
+}
+.bloque-explicativo h3 { margin-bottom: 0.4em; }
+
+/* ==========================================================================
+   Etiquetas de estado de validación / evidencia
+   ========================================================================== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.22em 0.6em;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  text-transform: none;
+}
+.badge::before { content: "●"; font-size: 0.6rem; }
+.badge-validado { background: var(--color-validado-bg); color: var(--color-validado); border-color: var(--color-validado); }
+.badge-en_revision { background: var(--color-revision-bg); color: var(--color-revision); border-color: var(--color-revision); }
+.badge-pendiente { background: var(--color-pendiente-bg); color: var(--color-pendiente); border-color: var(--color-pendiente); }
+.badge-demostracion { background: var(--color-demostracion-bg); color: var(--color-demostracion); border-color: var(--color-demostracion); }
+
+.badge-evidencia { background: var(--color-primary-light); color: var(--color-primary-dark); border: 1px solid var(--color-primary); border-radius: 999px; font-size: 0.72rem; font-weight: 700; padding: 0.22em 0.6em; display: inline-block; }
+
+.ficha-trazabilidad {
+  margin-top: 0.7em;
+  padding-top: 0.7em;
+  border-top: 1px dashed var(--color-border);
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1em;
+}
+.ficha-trazabilidad dt { font-weight: 700; display: inline; }
+.ficha-trazabilidad dd { display: inline; margin: 0; }
+.ficha-trazabilidad .item { display: inline-flex; gap: 0.3em; }
+
+/* ==========================================================================
+   Filtros y controles
+   ========================================================================== */
+.panel-filtros {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1em 1.2em;
+  margin-bottom: 1.3em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: flex-end;
+}
+.campo-filtro { display: flex; flex-direction: column; gap: 0.3em; }
+.campo-filtro label { font-size: 0.8rem; font-weight: 700; color: var(--color-text-secondary); }
+.campo-filtro select,
+.campo-filtro input[type="search"],
+.campo-filtro input[type="text"] {
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius);
+  padding: 0.5em 0.6em;
+  font-size: 0.9rem;
+  font-family: inherit;
+  background: #fff;
+  color: var(--color-text);
+  min-width: 180px;
+}
+
+.boton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  background: var(--color-primary);
+  color: #fff;
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius);
+  padding: 0.55em 0.9em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.boton:hover { background: var(--color-primary-dark); }
+.boton-secundario {
+  background: transparent;
+  color: var(--color-primary);
+}
+.boton-secundario:hover { background: var(--color-primary-light); }
+
+/* ==========================================================================
+   Tablas
+   ========================================================================== */
+.tabla-contenedor {
+  overflow: auto;
+  max-height: 65vh;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+.tabla-contenedor:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: -2px;
+}
+table.tabla-datos {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 720px;
+  font-size: 0.85rem;
+  background: var(--color-surface);
+}
+table.tabla-datos caption { text-align: left; padding: 0.7em 0.9em 0; font-size: 0.85rem; color: var(--color-text-secondary); }
+table.tabla-datos th, table.tabla-datos td {
+  text-align: left;
+  padding: 0.4em 0.7em;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: none;
+}
+table.tabla-datos thead th {
+  background: var(--color-surface-alt);
+  position: sticky;
+  top: 0;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  z-index: 5;
+}
+table.tabla-datos thead th button {
+  background: none;
+  border: none;
+  font: inherit;
+  font-weight: 700;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+table.tabla-datos tbody tr:hover { background: var(--color-primary-light); }
+table.tabla-datos td.num, table.tabla-datos th.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+.panel-columnas {
+  position: relative;
+  display: inline-block;
+}
+.panel-columnas .lista-columnas {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  margin-top: 0.3em;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 0.6em 0.8em;
+  z-index: 30;
+  min-width: 220px;
+  font-size: 0.82rem;
+}
+.panel-columnas[data-abierto="true"] .lista-columnas { display: block; }
+.panel-columnas .lista-columnas label { display: flex; align-items: center; gap: 0.5em; padding: 0.25em 0; font-weight: 500; }
+
+/* Vista de tarjetas para tablas en pantallas angostas */
+@media (max-width: 640px) {
+  .tabla-contenedor.tabla-responsiva-tarjetas {
+    overflow: visible;
+    max-height: none;
+    border: none;
+  }
+  table.tabla-datos.como-tarjetas {
+    min-width: 0;
+    display: block;
+  }
+  table.tabla-datos.como-tarjetas thead { display: none; }
+  table.tabla-datos.como-tarjetas tbody { display: block; }
+  table.tabla-datos.como-tarjetas tr {
+    display: block;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    margin-bottom: 0.7em;
+    padding: 0.5em 0.8em;
+    background: var(--color-surface);
+  }
+  table.tabla-datos.como-tarjetas td {
+    display: flex;
+    gap: 0.8em;
+    justify-content: space-between;
+    text-align: right;
+    border-bottom: 1px dashed var(--color-border);
+    padding: 0.45em 0;
+  }
+  table.tabla-datos.como-tarjetas td:last-child { border-bottom: none; }
+  table.tabla-datos.como-tarjetas td::before {
+    content: attr(data-etiqueta);
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    text-align: left;
+    flex-shrink: 0;
+    max-width: 45%;
+  }
+  table.tabla-datos.como-tarjetas td.num { text-align: right; }
+  table.tabla-datos.como-tarjetas th.col-secundaria,
+  table.tabla-datos.como-tarjetas td.col-secundaria { display: none !important; }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ==========================================================================
+   Gráficas (SVG)
+   ========================================================================== */
+.grafica-bloque {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.9em 1em;
+  margin: 1em 0;
+}
+.grafica-titulo { font-weight: 700; margin-bottom: 0.15em; color: var(--color-primary-dark); font-size: 0.95rem; }
+.grafica-descripcion { font-size: 0.82rem; color: var(--color-text-secondary); margin-bottom: 0.6em; }
+.grafica-svg-contenedor { position: relative; width: 100%; overflow-x: auto; }
+.grafica-svg-contenedor svg { display: block; max-height: 240px; width: 100%; height: auto; }
+.grafica-svg-contenedor.compacta svg { max-height: 200px; }
+.grafica-svg-contenedor .marca-eje { font-size: 11px; fill: var(--color-text-muted); }
+.grafica-svg-contenedor .linea-cuadricula { stroke: var(--color-border); stroke-width: 1; }
+.grafica-svg-contenedor .punto-dato {
+  cursor: pointer;
+}
+.grafica-svg-contenedor .punto-dato:focus-visible,
+.grafica-svg-contenedor .barra-dato:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 1px;
+}
+.grafica-leyenda { display: flex; flex-wrap: wrap; gap: 0.7em; margin-top: 0.6em; font-size: 0.78rem; }
+.grafica-leyenda .item { display: flex; align-items: center; gap: 0.4em; }
+.grafica-leyenda .muestra { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+
+/* Marca de agua sobre gráficas con datos ficticios */
+.grafica-svg-contenedor.con-marca-agua { overflow: hidden; }
+.marca-agua-demo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 1;
+}
+.marca-agua-demo span {
+  transform: rotate(-18deg);
+  font-size: clamp(1rem, 4vw, 1.8rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-demostracion);
+  opacity: 0.16;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+/* Ficha de metadatos bajo cada gráfica */
+.ficha-grafica {
+  margin-top: 0.7em;
+  padding-top: 0.6em;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1em;
+  font-size: 0.76rem;
+  color: var(--color-text-muted);
+}
+.ficha-grafica dt { font-weight: 700; display: inline; }
+.ficha-grafica dd { display: inline; margin: 0; }
+.ficha-grafica .item { display: inline-flex; gap: 0.3em; }
+.ficha-grafica .nota-metodologica { flex-basis: 100%; font-style: italic; }
+
+.ver-datos-tabla {
+  margin-top: 0.6em;
+}
+.ver-datos-tabla summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 0.82rem;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+}
+.ver-datos-tabla summary::-webkit-details-marker { display: none; }
+.ver-datos-tabla summary::before { content: "▸"; font-size: 0.7rem; }
+.ver-datos-tabla[open] summary::before { content: "▾"; }
+.ver-datos-tabla .tabla-contenedor { margin-top: 0.5em; max-height: 40vh; }
+
+.tooltip-grafica {
+  position: absolute;
+  background: var(--color-primary-dark);
+  color: #fff;
+  padding: 0.5em 0.7em;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  pointer-events: none;
+  z-index: 20;
+  max-width: 240px;
+  box-shadow: var(--shadow-md);
+  transform: translate(-50%, -110%);
+}
+.tooltip-grafica[hidden] { display: none; }
+
+.estado-vacio {
+  text-align: center;
+  padding: 2em 1em;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  border: 1px dashed var(--color-border-strong);
+  border-radius: var(--radius);
+  background: var(--color-surface-alt);
+}
+
+/* Cadena inversión → resultados */
+.cadena-flujo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  align-items: stretch;
+  margin: 1em 0;
+}
+.cadena-flujo .paso {
+  flex: 1 1 140px;
+  background: var(--color-primary-light);
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius);
+  padding: 0.9em 1em;
+  font-size: 0.85rem;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-align: center;
+}
+.cadena-flujo .flecha {
+  align-self: center;
+  color: var(--color-text-muted);
+  font-size: 1.2rem;
+}
+
+/* ==========================================================================
+   Utilidades
+   ========================================================================== */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; }
+@media (max-width: 720px) { .grid-2 { grid-template-columns: 1fr; } }
+
+.texto-muted { color: var(--color-text-muted); }
+.texto-pequeno { font-size: 0.82rem; }
+.mt-0 { margin-top: 0; }
+.espacio-arriba { margin-top: 2em; }
+
+.mensaje-error-datos {
+  background: var(--color-negative-bg);
+  border: 1px solid var(--color-negative);
+  color: var(--color-negative);
+  border-radius: var(--radius);
+  padding: 1.2em 1.3em;
+  max-width: 60ch;
+}
+.mensaje-error-datos code {
+  background: rgba(0,0,0,0.06);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+}
+
+.definicion-lista dt { font-weight: 700; color: var(--color-primary-dark); margin-top: 0.9em; }
+.definicion-lista dd { margin: 0.2em 0 0; color: var(--color-text-secondary); }
+
+details.metodologica summary { cursor: pointer; font-weight: 600; color: var(--color-primary); font-size: 0.85rem; }
+details.metodologica { margin-top: 0.5em; }
+
+.buscador-fuentes { max-width: 420px; }
+
+@media print {
+  .sitio-header, .sitio-nav, .nav-toggle, .aviso-banner, .boton { display: none !important; }
+}

@@ -1,0 +1,465 @@
+{
+  "es_demostracion": false,
+  "nota": "Todos los registros de este archivo (serie_anual y composicion_por_derecho) son reales, tomados de análisis publicados por REDIM y por UNICEF México/SIPINNA sobre el Anexo Transversal 18 del Presupuesto de Egresos de la Federación (SHCP/DOF); cada registro indica su fuente exacta y su estado de validación. Aviso importante de transparencia metodológica: el informe SITAN 2026 de UNICEF/SIPINNA (fte-unicef-sitan-2026) publica, para los mismos años, cifras de % del PIB y % del PEF distintas a las que reporta REDIM (por ejemplo, para 2025 SITAN reporta 8.7% del PEF frente al 11% que reporta REDIM). Es probable que la diferencia se deba a qué programas específicos cuenta cada fuente dentro del Anexo 18, o a la versión del PEF utilizada, pero no se pudo confirmar la causa exacta. Por eso serie_anual sigue usando únicamente las cifras de REDIM (para mantener una sola metodología consistente año con año) y no se mezclaron ambas fuentes en una misma serie; quien use este micrositio debe saber que existe esta discrepancia entre fuentes independientes igualmente serias.",
+  "nota_composicion_por_derecho": "composicion_por_derecho ya contiene un dato real (UNICEF México, ver fte-unicef-2023): la distribución promedio 2016-2023 del gasto en desarrollo social para NNA entre educación, salud y protección social. No es una serie por año (solo hay un periodo promedio disponible en la fuente consultada), y no incluye 'alimentación' como sector aparte porque la fuente no lo clasifica así. Antes de que este archivo se convierta en una serie año por año, se necesitaría una fuente que desagregue el Anexo Transversal 18 en montos anuales por estos mismos sectores. Se añadió un segundo periodo real (2025, fuente SITAN 2026 de UNICEF/SIPINNA) que sí desagrega por sector para un año específico (no un promedio), lo que permite comparar ese año contra el promedio histórico 2016-2023.",
+  "serie_anual": [
+    {
+      "anio": 2015,
+      "presupuesto_nominal": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "pct_pib": {
+        "valor": 3.7,
+        "unidad": "% del PIB"
+      },
+      "pct_pef": {
+        "valor": 15.04,
+        "unidad": "% del Presupuesto de Egresos de la Federación"
+      },
+      "inversion_per_capita": {
+        "valor": null,
+        "unidad": "pesos (MXN) por NNA al año"
+      },
+      "variacion_anual_real_pct": {
+        "valor": null,
+        "unidad": "% variación real anual"
+      },
+      "territorio": "Nacional",
+      "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+      "fuente_id": "fte-redim-2024",
+      "fuente": "REDIM, análisis del Presupuesto en la infancia y la adolescencia en México 2024 (comparativo 2015-2024)",
+      "url": "https://blog.derechosinfancia.org.mx/2023/12/07/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2024/",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Cifra histórica de referencia (% del PIB y % del PEF) citada por REDIM con base en el PEF 2015 (SHCP) y el PIB de INEGI. No se encontró el monto nominal desagregado para este año en las fuentes consultadas; se deja pendiente en vez de estimarlo.",
+      "es_demostracion": false
+    },
+    {
+      "anio": 2018,
+      "presupuesto_nominal": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "pct_pib": {
+        "valor": null,
+        "unidad": "% del PIB"
+      },
+      "pct_pef": {
+        "valor": null,
+        "unidad": "% del Presupuesto de Egresos de la Federación"
+      },
+      "inversion_per_capita": {
+        "valor": 20004,
+        "unidad": "pesos (MXN) por NNA al año"
+      },
+      "variacion_anual_real_pct": {
+        "valor": null,
+        "unidad": "% variación real anual"
+      },
+      "territorio": "Nacional",
+      "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Inversión per cápita nominal total (todas las edades de NNA), calculada por UNICEF México con base en información de la SHCP. Confirmado en el texto del informe: '2018 se destinaban 20 mil pesos para cada NNA' y 'para 2023 se destinaron 22 mil 985 pesos'. No se encontró en las fuentes consultadas el presupuesto nominal ni el % del PIB/PEF de este año desagregados de la misma manera que la serie de REDIM; se dejan pendientes en vez de mezclarlos con cifras de otra metodología.",
+      "es_demostracion": false
+    },
+    {
+      "anio": 2019,
+      "presupuesto_nominal": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "pct_pib": {
+        "valor": null,
+        "unidad": "% del PIB"
+      },
+      "pct_pef": {
+        "valor": null,
+        "unidad": "% del Presupuesto de Egresos de la Federación"
+      },
+      "inversion_per_capita": {
+        "valor": 23399,
+        "unidad": "pesos (MXN) por NNA al año"
+      },
+      "variacion_anual_real_pct": {
+        "valor": null,
+        "unidad": "% variación real anual"
+      },
+      "territorio": "Nacional",
+      "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Inversión per cápita nominal total (todas las edades de NNA), calculada por UNICEF México con base en información de la SHCP. Confirmado en el texto del informe: '2018 se destinaban 20 mil pesos para cada NNA' y 'para 2023 se destinaron 22 mil 985 pesos'. No se encontró en las fuentes consultadas el presupuesto nominal ni el % del PIB/PEF de este año desagregados de la misma manera que la serie de REDIM; se dejan pendientes en vez de mezclarlos con cifras de otra metodología.",
+      "es_demostracion": false
+    },
+    {
+      "anio": 2020,
+      "presupuesto_nominal": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "pct_pib": {
+        "valor": null,
+        "unidad": "% del PIB"
+      },
+      "pct_pef": {
+        "valor": null,
+        "unidad": "% del Presupuesto de Egresos de la Federación"
+      },
+      "inversion_per_capita": {
+        "valor": 22743,
+        "unidad": "pesos (MXN) por NNA al año"
+      },
+      "variacion_anual_real_pct": {
+        "valor": null,
+        "unidad": "% variación real anual"
+      },
+      "territorio": "Nacional",
+      "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Inversión per cápita nominal total (todas las edades de NNA), calculada por UNICEF México con base en información de la SHCP. Confirmado en el texto del informe: '2018 se destinaban 20 mil pesos para cada NNA' y 'para 2023 se destinaron 22 mil 985 pesos'. No se encontró en las fuentes consultadas el presupuesto nominal ni el % del PIB/PEF de este año desagregados de la misma manera que la serie de REDIM; se dejan pendientes en vez de mezclarlos con cifras de otra metodología.",
+      "es_demostracion": false
+    },
+    {
+      "anio": 2021,
+      "presupuesto_nominal": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "pct_pib": {
+        "valor": null,
+        "unidad": "% del PIB"
+      },
+      "pct_pef": {
+        "valor": null,
+        "unidad": "% del Presupuesto de Egresos de la Federación"
+      },
+      "inversion_per_capita": {
+        "valor": 22140,
+        "unidad": "pesos (MXN) por NNA al año"
+      },
+      "variacion_anual_real_pct": {
+        "valor": null,
+        "unidad": "% variación real anual"
+      },
+      "territorio": "Nacional",
+      "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Inversión per cápita nominal total (todas las edades de NNA), calculada por UNICEF México con base en información de la SHCP. Confirmado en el texto del informe: '2018 se destinaban 20 mil pesos para cada NNA' y 'para 2023 se destinaron 22 mil 985 pesos'. No se encontró en las fuentes consultadas el presupuesto nominal ni el % del PIB/PEF de este año desagregados de la misma manera que la serie de REDIM; se dejan pendientes en vez de mezclarlos con cifras de otra metodología.",
+      "es_demostracion": false
+    },
+    {
+      "anio": 2022,
+      "presupuesto_nominal": {
+        "valor": 831100,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "pct_pib": {
+        "valor": null,
+        "unidad": "% del PIB"
+      },
+      "pct_pef": {
+        "valor": null,
+        "unidad": "% del Presupuesto de Egresos de la Federación"
+      },
+      "inversion_per_capita": {
+        "valor": 22167,
+        "unidad": "pesos (MXN) por NNA al año"
+      },
+      "variacion_anual_real_pct": {
+        "valor": null,
+        "unidad": "% variación real anual"
+      },
+      "territorio": "Nacional",
+      "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+      "fuente_id": "fte-redim-2022",
+      "fuente": "REDIM, Presupuesto en la infancia y la adolescencia en México (2019-2022)",
+      "url": "https://blog.derechosinfancia.org.mx/2022/01/10/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico/",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Monto nominal del Anexo Transversal 18 del PEF 2022, con base en datos abiertos del portal de Transparencia Presupuestaria de la SHCP. No se encontró el % del PIB ni el % del PEF para este año específico en las fuentes consultadas; se dejan pendientes en vez de estimarlos. La inversión per cápita de este año proviene de una fuente distinta (UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023), no de REDIM.",
+      "es_demostracion": false
+    },
+    {
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 899500,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "pct_pib": {
+        "valor": 2.9,
+        "unidad": "% del PIB"
+      },
+      "pct_pef": {
+        "valor": 10.84,
+        "unidad": "% del Presupuesto de Egresos de la Federación"
+      },
+      "inversion_per_capita": {
+        "valor": 22985,
+        "unidad": "pesos (MXN) por NNA al año"
+      },
+      "variacion_anual_real_pct": {
+        "valor": 4.9,
+        "unidad": "% variación real anual"
+      },
+      "territorio": "Nacional",
+      "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+      "fuente_id": "fte-redim-2023",
+      "fuente": "REDIM, Presupuesto en la infancia y la adolescencia en México 2023",
+      "url": "https://blog.derechosinfancia.org.mx/2022/12/05/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2023/",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "en_revision",
+      "notas_metodologicas": "Presupuesto nominal, % del PIB y % del PEF corresponden al PEF 2023 aprobado (SHCP/DOF). La variación real (+4.9%) es una estimación de REDIM que usa una inflación proyectada de 3.3%, no la inflación definitiva del INPC; puede diferir del dato final. La inversión per cápita de este año proviene de una fuente distinta (UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023), no de REDIM.",
+      "es_demostracion": false
+    },
+    {
+      "anio": 2024,
+      "presupuesto_nominal": {
+        "valor": 979200,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "pct_pib": {
+        "valor": 3.0,
+        "unidad": "% del PIB"
+      },
+      "pct_pef": {
+        "valor": 10.8,
+        "unidad": "% del Presupuesto de Egresos de la Federación"
+      },
+      "inversion_per_capita": {
+        "valor": null,
+        "unidad": "pesos (MXN) por NNA al año"
+      },
+      "variacion_anual_real_pct": {
+        "valor": 4.9,
+        "unidad": "% variación real anual"
+      },
+      "territorio": "Nacional",
+      "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+      "fuente_id": "fte-redim-2024",
+      "fuente": "REDIM, Presupuesto en la infancia y la adolescencia en México 2024",
+      "url": "https://blog.derechosinfancia.org.mx/2023/12/07/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2024/",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "en_revision",
+      "notas_metodologicas": "Presupuesto nominal y % del PEF corresponden al PEF 2024 aprobado (publicado en el DOF el 25/11/2023). El % del PIB (~3.0%) es una proyección de REDIM al momento de publicar, no el % con el PIB definitivo de INEGI. La variación real (+4.9%) usa una inflación proyectada de 4% (Pre-Criterios de la SHCP), no la inflación definitiva.",
+      "es_demostracion": false
+    },
+    {
+      "anio": 2025,
+      "presupuesto_nominal": {
+        "valor": 1019000,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "pct_pib": {
+        "valor": 2.8,
+        "unidad": "% del PIB"
+      },
+      "pct_pef": {
+        "valor": 11.0,
+        "unidad": "% del Presupuesto de Egresos de la Federación"
+      },
+      "inversion_per_capita": {
+        "valor": null,
+        "unidad": "pesos (MXN) por NNA al año"
+      },
+      "variacion_anual_real_pct": {
+        "valor": 0.8,
+        "unidad": "% variación real anual"
+      },
+      "territorio": "Nacional",
+      "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+      "fuente_id": "fte-redim-2025",
+      "fuente": "REDIM, Presupuesto en la infancia y la adolescencia en México 2025",
+      "url": "https://blog.derechosinfancia.org.mx/2025/04/23/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2025/",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "en_revision",
+      "notas_metodologicas": "Presupuesto nominal, % del PIB y % del PEF corresponden al PEF 2025 aprobado (publicado en el DOF el 24/12/2024). La variación real (+0.8%) es una estimación de REDIM que usa una inflación proyectada de 3.3%, no la inflación definitiva del INPC.",
+      "es_demostracion": false
+    },
+    {
+      "anio": 2026,
+      "presupuesto_nominal": {
+        "valor": 1100000,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "pct_pib": {
+        "valor": 2.9,
+        "unidad": "% del PIB"
+      },
+      "pct_pef": {
+        "valor": 10.8,
+        "unidad": "% del Presupuesto de Egresos de la Federación"
+      },
+      "inversion_per_capita": {
+        "valor": null,
+        "unidad": "pesos (MXN) por NNA al año"
+      },
+      "variacion_anual_real_pct": {
+        "valor": 5.0,
+        "unidad": "% variación real anual"
+      },
+      "territorio": "Nacional",
+      "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+      "fuente_id": "fte-redim-2026",
+      "fuente": "REDIM, Presupuesto en la infancia y la adolescencia en México 2026",
+      "url": "https://blog.derechosinfancia.org.mx/2025/12/15/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2026/",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "en_revision",
+      "notas_metodologicas": "Presupuesto nominal y % del PEF corresponden al PEF 2026 aprobado. El % del PIB (2.9%) usa como base series de PIB de INEGI 2015-2024, ya que el PIB de 2025-2026 aún no es definitivo; es una aproximación de REDIM, no un % con el PIB final. La variación real (+5%) usa una inflación proyectada de 3%, no la inflación definitiva del INPC.",
+      "es_demostracion": false
+    }
+  ],
+  "composicion_por_derecho": [
+    {
+      "periodo": "Promedio 2016-2023",
+      "derecho_id": "educacion",
+      "porcentaje_gasto_desarrollo_social_nna": {
+        "valor": 75.8,
+        "unidad": "% del gasto en desarrollo social para NNA"
+      },
+      "territorio": "Nacional",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Fuente: UNICEF México, informe 2012-2023. Promedio de 8 años (2016-2023), no dato de un año específico. No incluye 'alimentación' como sector aparte: la fuente solo clasifica en educación, salud y protección social (más un residual 'Otros' de 0.2%, no mostrado aquí).",
+      "es_demostracion": false
+    },
+    {
+      "periodo": "Promedio 2016-2023",
+      "derecho_id": "salud",
+      "porcentaje_gasto_desarrollo_social_nna": {
+        "valor": 17.8,
+        "unidad": "% del gasto en desarrollo social para NNA"
+      },
+      "territorio": "Nacional",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Fuente: UNICEF México, informe 2012-2023. Promedio de 8 años (2016-2023), no dato de un año específico. No incluye 'alimentación' como sector aparte: la fuente solo clasifica en educación, salud y protección social (más un residual 'Otros' de 0.2%, no mostrado aquí).",
+      "es_demostracion": false
+    },
+    {
+      "periodo": "Promedio 2016-2023",
+      "derecho_id": "proteccion_social",
+      "porcentaje_gasto_desarrollo_social_nna": {
+        "valor": 6.3,
+        "unidad": "% del gasto en desarrollo social para NNA"
+      },
+      "territorio": "Nacional",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Fuente: UNICEF México, informe 2012-2023. Promedio de 8 años (2016-2023), no dato de un año específico. No incluye 'alimentación' como sector aparte: la fuente solo clasifica en educación, salud y protección social (más un residual 'Otros' de 0.2%, no mostrado aquí).",
+      "es_demostracion": false
+    },
+    {
+      "periodo": "2025 (aprobado)",
+      "derecho_id": "educacion",
+      "porcentaje_gasto_desarrollo_social_nna": {
+        "valor": 88.7,
+        "unidad": "% del gasto social para NNA"
+      },
+      "territorio": "Nacional",
+      "fuente_id": "fte-unicef-sitan-2026",
+      "fuente": "UNICEF México / SIPINNA, Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+      "url": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Fuente: UNICEF México / SIPINNA, SITAN 2026. Dato del ejercicio fiscal 2025 (no un promedio). Comparado con el promedio 2016-2023 de otra fuente, sugiere que la participación de educación creció mientras salud y protección social bajaron; es una comparación entre dos fuentes distintas, no una serie año por año.",
+      "es_demostracion": false
+    },
+    {
+      "periodo": "2025 (aprobado)",
+      "derecho_id": "salud",
+      "porcentaje_gasto_desarrollo_social_nna": {
+        "valor": 7.0,
+        "unidad": "% del gasto social para NNA"
+      },
+      "territorio": "Nacional",
+      "fuente_id": "fte-unicef-sitan-2026",
+      "fuente": "UNICEF México / SIPINNA, Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+      "url": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Fuente: UNICEF México / SIPINNA, SITAN 2026. Dato del ejercicio fiscal 2025 (no un promedio). Comparado con el promedio 2016-2023 de otra fuente, sugiere que la participación de educación creció mientras salud y protección social bajaron; es una comparación entre dos fuentes distintas, no una serie año por año.",
+      "es_demostracion": false
+    },
+    {
+      "periodo": "2025 (aprobado)",
+      "derecho_id": "proteccion_social",
+      "porcentaje_gasto_desarrollo_social_nna": {
+        "valor": 3.3,
+        "unidad": "% del gasto social para NNA"
+      },
+      "territorio": "Nacional",
+      "fuente_id": "fte-unicef-sitan-2026",
+      "fuente": "UNICEF México / SIPINNA, Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+      "url": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+      "fecha_consulta": "2026-09-22",
+      "estado_validacion": "validado",
+      "notas_metodologicas": "Fuente: UNICEF México / SIPINNA, SITAN 2026. Dato del ejercicio fiscal 2025 (no un promedio). Comparado con el promedio 2016-2023 de otra fuente, sugiere que la participación de educación creció mientras salud y protección social bajaron; es una comparación entre dos fuentes distintas, no una serie año por año.",
+      "es_demostracion": false
+    }
+  ]
+}

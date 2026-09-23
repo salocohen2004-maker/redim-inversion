@@ -1,0 +1,178 @@
+{
+  "es_demostracion": false,
+  "nota": "Todas las fuentes de este archivo son reales, verificadas en línea, con enlace y fecha de consulta.",
+  "fuentes": [
+    {
+      "id": "fte-redim-2022",
+      "titulo": "Presupuesto en la infancia y la adolescencia en México (2019-2022)",
+      "tipo_documento": "Análisis presupuestario (blog de datos e incidencia política)",
+      "institucion": "Red por los Derechos de la Infancia en México (REDIM)",
+      "anio": 2022,
+      "enlace": "https://blog.derechosinfancia.org.mx/2022/01/10/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico/",
+      "fecha_consulta": "2026-09-22",
+      "descripcion": "Análisis de REDIM sobre el Anexo Transversal 18 'Recursos para la Atención de Niñas, Niños y Adolescentes' del Presupuesto de Egresos de la Federación 2022, con base en datos abiertos del portal de Transparencia Presupuestaria de la SHCP.",
+      "datos_respaldados": [
+        "Presupuesto nominal 2022 (data/presupuesto.json, serie_anual)"
+      ],
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "fte-redim-2023",
+      "titulo": "Presupuesto en la infancia y la adolescencia en México 2023",
+      "tipo_documento": "Análisis presupuestario (blog de datos e incidencia política)",
+      "institucion": "Red por los Derechos de la Infancia en México (REDIM)",
+      "anio": 2023,
+      "enlace": "https://blog.derechosinfancia.org.mx/2022/12/05/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2023/",
+      "fecha_consulta": "2026-09-22",
+      "descripcion": "Análisis de REDIM sobre el Anexo Transversal 18 del Presupuesto de Egresos de la Federación 2023 (aprobado), con base en el PEF 2023 publicado por la SHCP en el DOF. La variación real usa una inflación estimada de 3.3%, no la inflación definitiva del INPC.",
+      "datos_respaldados": [
+        "Presupuesto nominal, % del PIB, % del PEF y variación real estimada 2023 (data/presupuesto.json, serie_anual)"
+      ],
+      "estado_validacion": "en_revision",
+      "es_demostracion": false
+    },
+    {
+      "id": "fte-redim-2024",
+      "titulo": "Presupuesto en la infancia y la adolescencia en México 2024",
+      "tipo_documento": "Análisis presupuestario (blog de datos e incidencia política)",
+      "institucion": "Red por los Derechos de la Infancia en México (REDIM)",
+      "anio": 2024,
+      "enlace": "https://blog.derechosinfancia.org.mx/2023/12/07/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2024/",
+      "fecha_consulta": "2026-09-22",
+      "descripcion": "Análisis de REDIM sobre el Anexo Transversal 18 del Presupuesto de Egresos de la Federación 2024 (aprobado, publicado en el DOF el 25/11/2023), con series comparativas 2015-2024 (SHCP e INEGI). La variación real usa una inflación proyectada de 4% (Pre-Criterios de Política Económica de la SHCP), no la inflación definitiva.",
+      "datos_respaldados": [
+        "Presupuesto nominal, % del PIB, % del PEF y variación real estimada 2024 (data/presupuesto.json, serie_anual)",
+        "Referencia histórica 2015 (% del PIB y % del PEF)"
+      ],
+      "estado_validacion": "en_revision",
+      "es_demostracion": false
+    },
+    {
+      "id": "fte-redim-2025",
+      "titulo": "Presupuesto en la infancia y la adolescencia en México 2025",
+      "tipo_documento": "Análisis presupuestario (blog de datos e incidencia política)",
+      "institucion": "Red por los Derechos de la Infancia en México (REDIM)",
+      "anio": 2025,
+      "enlace": "https://blog.derechosinfancia.org.mx/2025/04/23/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2025/",
+      "fecha_consulta": "2026-09-22",
+      "descripcion": "Análisis de REDIM sobre el Anexo Transversal 18 del Presupuesto de Egresos de la Federación 2025 (aprobado, publicado en el DOF el 24/12/2024). La variación real usa una inflación estimada de 3.3% (Pre-Criterios de Política Económica de la SHCP), no la inflación definitiva.",
+      "datos_respaldados": [
+        "Presupuesto nominal, % del PIB, % del PEF y variación real estimada 2025 (data/presupuesto.json, serie_anual)"
+      ],
+      "estado_validacion": "en_revision",
+      "es_demostracion": false
+    },
+    {
+      "id": "fte-redim-2026",
+      "titulo": "Presupuesto en la infancia y la adolescencia en México 2026",
+      "tipo_documento": "Análisis presupuestario (blog de datos e incidencia política)",
+      "institucion": "Red por los Derechos de la Infancia en México (REDIM)",
+      "anio": 2026,
+      "enlace": "https://blog.derechosinfancia.org.mx/2025/12/15/presupuesto-en-la-infancia-y-la-adolescencia-en-mexico-2026/",
+      "fecha_consulta": "2026-09-22",
+      "descripcion": "Análisis de REDIM sobre el Anexo Transversal 18 del Presupuesto de Egresos de la Federación 2026 (aprobado). El % del PIB usa como base series de PIB del INEGI 2015-2024 (el PIB de 2025-2026 todavía no es definitivo), y la variación real usa una inflación estimada de 3%.",
+      "datos_respaldados": [
+        "Presupuesto nominal, % del PIB, % del PEF y variación real estimada 2026 (data/presupuesto.json, serie_anual)",
+        "Indicador destacado 'Inversión total en NNA' y '% del PIB' en portada (data/config.json, indicadores_destacados)",
+        "Hallazgo principal sobre evolución del presupuesto (data/resumen.json)",
+        "Problema 'Recortes en términos reales', incluyendo recortes del PEF 2026 (data/problemas.json)"
+      ],
+      "estado_validacion": "en_revision",
+      "es_demostracion": false
+    },
+    {
+      "id": "fte-unicef-2023",
+      "titulo": "Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "tipo_documento": "Análisis presupuestario (informe técnico)",
+      "institucion": "UNICEF México, en colaboración con la Comisión de Derechos de la Niñez y de la Adolescencia, la Comisión de Presupuesto y Cuenta Pública y la Comisión de Educación de la Cámara de Diputados (LXV Legislatura)",
+      "anio": 2023,
+      "enlace": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+      "fecha_consulta": "2026-09-22",
+      "descripcion": "Informe de UNICEF México sobre la evolución del Anexo Transversal 18 'Recursos para la Atención de Niñas, Niños y Adolescentes' (ATNNA) del Presupuesto de Egresos de la Federación, con datos de 2012 a 2023 elaborados a partir de información de la SHCP e INEGI. Incluye desagregación por sector (educación, salud, protección social), por grupo etario, inversión per cápita, y tablas de programas presupuestarios específicos (Tablas 1 a 4).",
+      "datos_respaldados": [
+        "Inversión per cápita total 2018-2023 (data/presupuesto.json, serie_anual)",
+        "Distribución del gasto en desarrollo social para NNA por sector, promedio 2016-2023 (data/presupuesto.json, composicion_por_derecho)",
+        "Tabla de programas presupuestarios reales (data/programas.json)",
+        "Indicador destacado 'Programas presupuestarios identificados' (data/config.json, indicadores_destacados)",
+        "Indicadores de rezago educativo (2008-2022) y carencia de acceso a salud (2020, 2022) (data/indicadores.json)",
+        "Hallazgo principal sobre composición sectorial del gasto y caída del programa de vacunación (data/resumen.json)",
+        "Problemas 'Desigualdad territorial', 'Concentración del gasto en pocos programas', 'Falta de información desagregada y accesible' y 'Fragmentación institucional' (data/problemas.json)",
+        "Interpretaciones sobre salud y rezago educativo (data/indicadores.json, relaciones_inversion_indicador)"
+      ],
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "fte-redim-balance-2023",
+      "titulo": "Balance Anual REDIM, 2023: Datos sobre la situación de los derechos de la niñez y la adolescencia en México",
+      "tipo_documento": "Balance anual (blog de datos e incidencia política)",
+      "institucion": "Red por los Derechos de la Infancia en México (REDIM)",
+      "anio": 2023,
+      "enlace": "https://blog.derechosinfancia.org.mx/2024/01/05/balance-anual-redim-2023-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico/",
+      "fecha_consulta": "2026-09-22",
+      "descripcion": "Balance anual de REDIM con cifras de homicidios, feminicidios y pobreza multidimensional para 2022 (año completo) y 2023 (parcial, enero-noviembre), con base en el SESNSP y CONEVAL.",
+      "datos_respaldados": [
+        "Homicidios y pobreza en NNA, 2022 (data/indicadores.json)"
+      ],
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "fte-redim-balance-2025",
+      "titulo": "Balance Anual REDIM, 2025: Datos sobre la situación de los derechos de la niñez y la adolescencia en México (enero 2026)",
+      "tipo_documento": "Balance anual (blog de datos e incidencia política)",
+      "institucion": "Red por los Derechos de la Infancia en México (REDIM)",
+      "anio": 2025,
+      "enlace": "https://blog.derechosinfancia.org.mx/2026/01/05/balance-anual-redim-2025-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico-enero-2026/",
+      "fecha_consulta": "2026-09-22",
+      "descripcion": "Balance anual de REDIM con indicadores de violencia (SESNSP, SEGOB), pobreza y carencias sociales (INEGI), salud (Secretaría de Salud, ENSANUT), educación (INEGI, SEP, OCDE-PISA) y protección (INEGI) para 2024 (año completo) y enero-noviembre de 2025 (parcial).",
+      "datos_respaldados": [
+        "Pobreza, carencia alimentaria, carencia de acceso a salud y rezago educativo en NNA, 2024 (data/indicadores.json)",
+        "Homicidios de NNA, 2024 (data/indicadores.json)",
+        "Trabajo infantil, 2019 y 2022 (data/indicadores.json)",
+        "Hallazgo principal sobre pobreza e inversión (data/resumen.json)",
+        "Razón 'Población que representa una proporción significativa del país' (data/resumen.json)"
+      ],
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "fte-ciep-2025",
+      "titulo": "Inversión en cuidados para la primera infancia: Panorama y retos",
+      "tipo_documento": "Boletín de análisis presupuestario",
+      "institucion": "Centro de Investigación Económica y Presupuestaria (CIEP)",
+      "anio": 2025,
+      "enlace": "https://ciep.mx/inversion-en-cuidados-para-la-primera-infancia-panorama-y-retos/",
+      "fecha_consulta": "2026-09-22",
+      "descripcion": "Boletín del CIEP sobre la inversión pública en cuidados para la primera infancia en México: monto identificado en el PEF 2025, comparación contra la meta internacional recomendada por ONU Mujeres, UNICEF y CEPAL, y referencia al trabajo de James J. Heckman (2016) sobre el retorno económico de la inversión temprana.",
+      "datos_respaldados": [
+        "Razón 'Efecto en el desarrollo presente y futuro del país' (data/resumen.json)",
+        "Problema 'Inversión insuficiente en primera infancia frente a estándares internacionales' (data/problemas.json)",
+        "Solución 'Incrementar la inversión en primera infancia hacia 1.16% del PIB' (data/soluciones.json)"
+      ],
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "fte-unicef-sitan-2026",
+      "titulo": "Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+      "tipo_documento": "Análisis de situación (informe técnico)",
+      "institucion": "UNICEF México y Sistema Nacional de Protección Integral de Niñas, Niños y Adolescentes (SIPINNA)",
+      "anio": 2026,
+      "enlace": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+      "fecha_consulta": "2026-09-22",
+      "descripcion": "Informe conjunto de UNICEF México y SIPINNA (2026) sobre la situación de derechos de NNA: marco institucional, presupuesto (Anexo Transversal 18, 2018-2025), pobreza y carencias sociales por subgrupo (CONEVAL/INEGI, 2016-2022), salud, educación y violencia (INEGI, Secretaría de Salud), entre otros temas.",
+      "datos_respaldados": [
+        "Pobreza multidimensional en NNA, 2016 y 2018 (data/indicadores.json)",
+        "Rezago educativo en NNA, 2016, 2018 y 2020 (data/indicadores.json)",
+        "Tasa de violencia familiar contra NNA, 2018 y 2023 (data/indicadores.json)",
+        "Distribución del gasto en NNA por sector, 2025 (data/presupuesto.json, composicion_por_derecho)",
+        "Hallazgo principal sobre el cambio en la composición sectorial del gasto en 2025 (data/resumen.json)",
+        "Problema 'Concentración del gasto en pocos programas', referencia a la cifra de 2025 (data/problemas.json)"
+      ],
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    }
+  ]
+}

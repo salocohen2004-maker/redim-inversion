@@ -1,0 +1,72 @@
+{
+  "es_demostracion": false,
+  "nota": "Las tarjetas de este archivo son reales, tomadas del informe 'Análisis de la inversión pública en infancia y adolescencia en México 2012-2023' de UNICEF México y del análisis de REDIM sobre el PEF 2026 (ver fte-unicef-2023 y fte-redim-2026 en data/fuentes.json). No se incluye la categoría 'subejercicio' porque no se encontraron datos verificados que la respalden.",
+  "problemas": [
+    {
+      "id": "prob-recortes-reales",
+      "categoria": "recortes_reales",
+      "titulo": "Recortes en términos reales",
+      "problema": "Aunque el presupuesto nominal para la niñez y la adolescencia ha crecido casi todos los años, en términos relativos —como porcentaje del PIB y del Presupuesto de Egresos de la Federación— ha disminuido de forma sostenida desde 2015. Además, varios programas específicos de atención a la niñez han sufrido recortes abruptos en años recientes, incluso en términos nominales.",
+      "evidencia": "El % del PIB destinado a NNA bajó de 3.7% en 2015 a 2.9% en 2026; el % del Presupuesto de Egresos de la Federación bajó de 15.04% a 10.8% en el mismo periodo (ver Panorama de la inversión). A nivel de programas específicos: el programa de vacunación cayó -53.7% entre 2022 y 2023; en el Presupuesto de Egresos de la Federación 2026 aprobado, los programas 'Protección y restitución de los derechos de las niñas, niños y adolescentes' (procuradurías de protección) y 'Educación Física de Excelencia' no recibieron presupuesto (-100%), y 'Atención a Personas con Discapacidad' cayó -92.5% (ver Programas presupuestarios).",
+      "poblacion_afectada": "Niñas, niños y adolescentes en todo el país; en particular, quienes dependen de las procuradurías de protección de derechos y de programas específicos de salud y asistencia social infantil.",
+      "fuente_id": "fte-redim-2026",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prob-desigualdad-territorial",
+      "categoria": "desigualdad_territorial",
+      "titulo": "Desigualdad territorial en la inversión",
+      "problema": "Los recursos etiquetados para NNA que se transfieren a las entidades federativas (principalmente a través del Ramo 33) no se distribuyen de forma proporcional entre estados: unas cuantas entidades concentran una parte importante de los recursos, mientras otras reciben una proporción mínima.",
+      "evidencia": "El Ramo 33 representa 84.6% de los recursos con etiqueta transferidos a las entidades federativas para NNA. Las entidades con mayor asignación son Estado de México (9.8%), Veracruz (7.2%), Oaxaca (5.8%), Jalisco (4.9%) y Chiapas (4.9%); las de menor asignación son Nayarit (1.4%), Baja California Sur (1.2%), Campeche (1.2%), Colima (0.9%) y Ciudad de México (0.3%). Estas cifras son la participación de cada entidad en el total transferido, no un monto per cápita ajustado por población infantil de cada estado.",
+      "poblacion_afectada": "Niñas, niños y adolescentes residentes en las entidades federativas con menor asignación relativa de recursos etiquetados (Nayarit, Baja California Sur, Campeche, Colima, Ciudad de México, entre otras).",
+      "fuente_id": "fte-unicef-2023",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prob-concentracion-gasto",
+      "categoria": "concentracion_gasto",
+      "titulo": "Concentración del gasto en pocos programas",
+      "problema": "Una parte muy grande del presupuesto etiquetado para NNA se concentra en un número reducido de fondos, principalmente relacionados con nómina educativa, más que en una diversidad amplia de servicios directos para la niñez.",
+      "evidencia": "El Fondo de Aportaciones para la Nómina Educativa y Gasto Operativo (FONE) representa 50.2% del gasto total del sector educativo y 65.2% del total de recursos del sector educativo etiquetados para NNA. Al descontar la nómina docente del total destinado a educación básica, la asignación por estudiante se reduce en aproximadamente 80%: solo 20% de los recursos etiquetados para educación básica se destina a diseño de política educativa, calidad e infraestructura. Esta concentración también se observa entre sectores: del gasto en desarrollo social para NNA, el promedio 2016-2023 ya destinaba 75.8% a educación frente a 17.8% en salud y 6.3% en protección social; un informe distinto (UNICEF/SIPINNA, SITAN 2026) reporta que para 2025 la participación de educación subió a 88.7%, mientras la de salud bajó a 7.0% y la de protección social a 3.3% (ver Derechos, composición por sector).",
+      "poblacion_afectada": "Niñas, niños y adolescentes que dependen de servicios educativos distintos al pago de nómina docente (infraestructura, materiales educativos, programas de calidad educativa).",
+      "fuente_id": "fte-unicef-2023",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prob-falta-informacion",
+      "categoria": "falta_informacion",
+      "titulo": "Falta de información desagregada y accesible",
+      "problema": "Persisten áreas de oportunidad en el etiquetado, la homogeneidad y la actualización de la información presupuestaria para NNA, así como programas dirigidos a la niñez que no son distinguibles dentro de la estructura presupuestaria de algunas dependencias.",
+      "evidencia": "UNICEF México documenta que 'aún existen áreas de oportunidad en el etiquetado y asignación de recursos para niñas, niños y adolescentes; para ello es importante que las dependencias cuenten con información de calidad, homogénea y actualizada de sus beneficiarios, así como una metodología clara y actualizable año con año'. El mismo informe señala que existen programas dirigidos a la primera infancia (por ejemplo, de la SEDENA y la SEMAR) que no están reflejados en el Anexo Transversal 18 porque no son distinguibles de la estructura presupuestaria general de esas dependencias.",
+      "poblacion_afectada": "Investigadores, organizaciones de sociedad civil y ciudadanía que buscan dar seguimiento al gasto en niñez; indirectamente, NNA atendidos por programas que no están claramente identificados en el presupuesto público.",
+      "fuente_id": "fte-unicef-2023",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prob-fragmentacion-institucional",
+      "categoria": "fragmentacion_institucional",
+      "titulo": "Fragmentación institucional",
+      "problema": "La atención a niñas, niños y adolescentes en sectores clave como salud y protección social está repartida entre numerosas dependencias y ramos generales, sin que exista siempre una coordinación clara entre ellos; además, algunos programas han pasado por cambios institucionales frecuentes.",
+      "evidencia": "Para la atención de NNA en el sector salud participan tres dependencias (SSA, IMSS, ISSSTE) y dos ramos generales (33 y 19); en protección social participan seis dependencias/ramos (SSA, Bienestar, IMSS, ISSSTE, Ramo 19 y Ramo 33). Como ejemplo de inestabilidad institucional: el esquema de salud para población sin seguridad social laboral pasó del Seguro Popular (2004-2018) al INSABI (2019-2023) y de éste a IMSS-Bienestar (desde 2023); la proporción del presupuesto de este esquema destinada específicamente a NNA bajó de casi 50% con el Seguro Popular a 29.8% con el INSABI en 2023.",
+      "poblacion_afectada": "Niñas, niños y adolescentes sin seguridad social laboral que dependen de los servicios públicos de salud, y NNA atendidos por el sistema de protección social (SNDIF y procuradurías de protección).",
+      "fuente_id": "fte-unicef-2023",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prob-insuficiencia-primera-infancia",
+      "categoria": "insuficiencia_primera_infancia",
+      "titulo": "Inversión insuficiente en primera infancia frente a estándares internacionales",
+      "problema": "La inversión pública específicamente dirigida a la primera infancia (0 a 5 años) en México está muy por debajo de la meta que recomiendan organismos internacionales para garantizar un sistema universal, gratuito y de calidad de servicios de cuidado infantil.",
+      "evidencia": "En el Presupuesto de Egresos de la Federación 2025 se identificaron 24,200 millones de pesos destinados a la primera infancia, equivalentes a solo 0.07% del PIB. ONU Mujeres, UNICEF y CEPAL recomiendan orientar la inversión hacia un nivel equivalente a 1.16% del PIB para ese fin.",
+      "poblacion_afectada": "Niñas y niños de 0 a 5 años en México, etapa en la que, según evidencia académica (Heckman, 2016), la inversión en el desarrollo de habilidades genera los mayores retornos económicos y sociales en comparación con etapas posteriores de la vida.",
+      "fuente_id": "fte-ciep-2025",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    }
+  ]
+}

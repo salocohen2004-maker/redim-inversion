@@ -1,0 +1,390 @@
+{
+  "es_demostracion": false,
+  "nota": "Los indicadores de este archivo son reales, tomados del informe 'Análisis de la inversión pública en infancia y adolescencia en México 2012-2023' de UNICEF México y de los Balances Anuales de REDIM (2023 y 2025), que a su vez citan al INEGI, CONEVAL, SESNSP y la Secretaría de Salud como fuentes primarias. Varios puntos se calcularon restando o sumando una variación porcentual publicada al dato del año conocido más cercano (esto se indica siempre en notas_metodologicas de ese punto); no se inventó ningún valor que no se pudiera derivar así de una cifra publicada. Se añadió una fuente adicional (UNICEF México / SIPINNA, SITAN 2026) que amplía varias series con más años y confirma de forma independiente los valores que ya existían para 2020 y 2022 (pobreza) y 2022 (rezago educativo).",
+  "indicadores": [
+    {
+      "id": "ind-pobreza-infantil",
+      "categoria": "pobreza",
+      "nombre": "Tasa de pobreza multidimensional en niñas, niños y adolescentes",
+      "unidad": "% de NNA en situación de pobreza multidimensional",
+      "serie": [
+        {
+          "anio": 2016,
+          "valor": 51.3,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-sitan-2026",
+          "fuente": "UNICEF México / SIPINNA, Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+          "url": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Fuente primaria: CONEVAL, con base en la ENIGH 2016 del INEGI. Los valores de 2020 (52.6%) y 2022 (45.8%) de esta misma tabla coinciden exactamente con los que ya tenía esta serie (tomados de otro informe de UNICEF y del Balance Anual REDIM 2023), lo que confirma que se trata del mismo indicador.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2018,
+          "valor": 50.3,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-sitan-2026",
+          "fuente": "UNICEF México / SIPINNA, Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+          "url": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Fuente primaria: CONEVAL, con base en la ENIGH 2018 del INEGI.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2020,
+          "valor": 52.6,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-2023",
+          "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+          "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Cifra tomada del informe de UNICEF México (fuente original: CONEVAL, Medición de la pobreza).",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2022,
+          "valor": 45.8,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-redim-balance-2023",
+          "fuente": "REDIM, Balance Anual 2023 (con datos de SESNSP/CONEVAL)",
+          "url": "https://blog.derechosinfancia.org.mx/2024/01/05/balance-anual-redim-2023-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico/",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Cifra confirmada de forma independiente por tres fuentes (UNICEF/CONEVAL, y los balances anuales de REDIM 2023 y 2025): 45.8% en 2022, 17 millones de personas.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2024,
+          "valor": 38.7,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-redim-balance-2025",
+          "fuente": "REDIM, Balance Anual 2025 (con datos de INEGI/SESNSP/Secretaría de Salud)",
+          "url": "https://blog.derechosinfancia.org.mx/2026/01/05/balance-anual-redim-2025-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico-enero-2026/",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Disminución de 7.1 puntos porcentuales respecto a 2022, equivalente a 14 millones de NNA en pobreza en 2024.",
+          "es_demostracion": false
+        }
+      ]
+    },
+    {
+      "id": "ind-rezago-educativo",
+      "categoria": "educacion",
+      "nombre": "Rezago educativo (carencia social) en niñas, niños y adolescentes",
+      "unidad": "% de NNA con carencia por rezago educativo",
+      "serie": [
+        {
+          "anio": 2008,
+          "valor": 10.5,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-2023",
+          "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+          "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Cifra tomada del informe de UNICEF México (fuente original: CONEVAL, Medición de la pobreza).",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2014,
+          "valor": 8.0,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-2023",
+          "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+          "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Cifra tomada del informe de UNICEF México (fuente original: CONEVAL, Medición de la pobreza). Mínimo histórico de la serie 2008-2022.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2016,
+          "valor": 9.2,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-sitan-2026",
+          "fuente": "UNICEF México / SIPINNA, Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+          "url": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Fuente primaria: CONEVAL, con base en la ENIGH 2016 del INEGI. El valor de 2022 (10.2%) de esta misma tabla coincide exactamente con el que ya tenía esta serie (tomado de otro informe de UNICEF), lo que confirma que se trata del mismo indicador.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2018,
+          "valor": 9.9,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-sitan-2026",
+          "fuente": "UNICEF México / SIPINNA, Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+          "url": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Fuente primaria: CONEVAL, con base en la ENIGH 2018 del INEGI.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2020,
+          "valor": 10.7,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-sitan-2026",
+          "fuente": "UNICEF México / SIPINNA, Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+          "url": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Fuente primaria: CONEVAL, con base en la ENIGH 2020 del INEGI.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2022,
+          "valor": 10.2,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-2023",
+          "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+          "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Cifra tomada del informe de UNICEF México (fuente original: CONEVAL, Medición de la pobreza). El informe señala que el rezago educativo, tras la pandemia y el cierre prolongado de escuelas, superó el nivel previo a la crisis de 2008-2009.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2024,
+          "valor": 10.6,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-redim-balance-2025",
+          "fuente": "REDIM, Balance Anual 2025 (con datos de INEGI/SESNSP/Secretaría de Salud)",
+          "url": "https://blog.derechosinfancia.org.mx/2026/01/05/balance-anual-redim-2025-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico-enero-2026/",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "en_revision",
+          "notas_metodologicas": "Esta cifra específicamente considera NNA de 3 a 17 años (no 0-17 como el resto de la serie), lo que puede explicar parte de la diferencia con el dato de 2022. REDIM reporta una disminución de 1 punto entre 2022 y 2024 usando su propia definición de base, no directamente comparable año con año con los puntos anteriores de esta serie.",
+          "es_demostracion": false
+        }
+      ]
+    },
+    {
+      "id": "ind-carencia-salud",
+      "categoria": "salud",
+      "nombre": "Carencia de acceso a servicios de salud en niñas, niños y adolescentes",
+      "unidad": "% de NNA con carencia por acceso a servicios de salud",
+      "serie": [
+        {
+          "anio": 2020,
+          "valor": 27.5,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-2023",
+          "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+          "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Cifra tomada del informe de UNICEF México (fuente original: CONEVAL, Medición de la pobreza). Calculado a partir del dato de 2022 (42.3%) y la variación reportada de +14.8 puntos porcentuales respecto a 2020.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2022,
+          "valor": 42.3,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-2023",
+          "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+          "url": "https://www.unicef.org/mexico/media/7626/file/An%C3%A1lisis%20de%20la%20Inversi%C3%B3n%20p%C3%BAblica%20en%20infancia%20y%20adolescencia%20.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Cifra tomada del informe de UNICEF México (fuente original: CONEVAL, Medición de la pobreza). El informe atribuye el aumento a cambios institucionales en los proveedores de servicios de salud sin seguridad social (fin del Seguro Popular/INSABI) y a los primeros efectos de la pandemia.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2024,
+          "valor": 35.7,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-redim-balance-2025",
+          "fuente": "REDIM, Balance Anual 2025 (con datos de INEGI/SESNSP/Secretaría de Salud)",
+          "url": "https://blog.derechosinfancia.org.mx/2026/01/05/balance-anual-redim-2025-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico-enero-2026/",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Disminución de 6.7 puntos porcentuales respecto a 2022, equivalente a 12.9 millones de NNA con esta carencia en 2024.",
+          "es_demostracion": false
+        }
+      ]
+    },
+    {
+      "id": "ind-carencia-alimentaria",
+      "categoria": "alimentacion",
+      "nombre": "Carencia por acceso a la alimentación nutritiva y de calidad en niñas, niños y adolescentes",
+      "unidad": "% de NNA con esta carencia social",
+      "serie": [
+        {
+          "anio": 2022,
+          "valor": 21.2,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-redim-balance-2025",
+          "fuente": "REDIM, Balance Anual 2025 (con datos de INEGI/SESNSP/Secretaría de Salud)",
+          "url": "https://blog.derechosinfancia.org.mx/2026/01/05/balance-anual-redim-2025-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico-enero-2026/",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Calculado a partir del dato de 2024 (17.1%) y la disminución reportada de 4.1 puntos porcentuales respecto a 2022.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2024,
+          "valor": 17.1,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-redim-balance-2025",
+          "fuente": "REDIM, Balance Anual 2025 (con datos de INEGI/SESNSP/Secretaría de Salud)",
+          "url": "https://blog.derechosinfancia.org.mx/2026/01/05/balance-anual-redim-2025-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico-enero-2026/",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Equivalente a 6.2 millones de NNA con esta carencia en 2024.",
+          "es_demostracion": false
+        }
+      ]
+    },
+    {
+      "id": "ind-homicidios-nna",
+      "categoria": "violencia",
+      "nombre": "Homicidios de niñas, niños y adolescentes",
+      "unidad": "casos (año completo), 0-17 años",
+      "serie": [
+        {
+          "anio": 2022,
+          "valor": 2550,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-redim-balance-2023",
+          "fuente": "REDIM, Balance Anual 2023 (con datos de SESNSP/CONEVAL)",
+          "url": "https://blog.derechosinfancia.org.mx/2024/01/05/balance-anual-redim-2023-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico/",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Fuente primaria: SESNSP, Incidencia Delictiva del Fuero Común. Cifra de año completo.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2024,
+          "valor": 2476,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-redim-balance-2025",
+          "fuente": "REDIM, Balance Anual 2025 (con datos de INEGI/SESNSP/Secretaría de Salud)",
+          "url": "https://blog.derechosinfancia.org.mx/2026/01/05/balance-anual-redim-2025-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico-enero-2026/",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Fuente primaria: SESNSP. Cifra de año completo. El Balance Anual REDIM 2025 reporta además que, de enero a noviembre de 2025 (dato parcial, no incluido en esta serie por no ser un año completo), se registraron 1,991 homicidios de NNA, una disminución de 11.5% respecto al mismo periodo de 2024.",
+          "es_demostracion": false
+        }
+      ]
+    },
+    {
+      "id": "ind-trabajo-infantil",
+      "categoria": "proteccion",
+      "nombre": "Trabajo infantil",
+      "unidad": "% de NNA de 5 a 17 años en trabajo infantil",
+      "serie": [
+        {
+          "anio": 2019,
+          "valor": 11.5,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-redim-balance-2025",
+          "fuente": "REDIM, Balance Anual 2025 (con datos de INEGI/SESNSP/Secretaría de Salud)",
+          "url": "https://blog.derechosinfancia.org.mx/2026/01/05/balance-anual-redim-2025-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico-enero-2026/",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Calculado a partir del dato de 2022 (13.1%) y el aumento reportado de 1.6 puntos porcentuales respecto a 2019. Fuente primaria: INEGI, Encuesta Nacional de Trabajo Infantil (ENTI).",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2022,
+          "valor": 13.1,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-redim-balance-2025",
+          "fuente": "REDIM, Balance Anual 2025 (con datos de INEGI/SESNSP/Secretaría de Salud)",
+          "url": "https://blog.derechosinfancia.org.mx/2026/01/05/balance-anual-redim-2025-datos-sobre-la-situacion-los-derechos-de-la-ninez-y-la-adolescencia-en-mexico-enero-2026/",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Equivalente a 3.7 millones de NNA de 5 a 17 años. Fuente primaria: INEGI, ENTI.",
+          "es_demostracion": false
+        }
+      ]
+    },
+    {
+      "id": "ind-violencia-familiar",
+      "categoria": "violencia",
+      "nombre": "Tasa de violencia familiar contra niñas, niños y adolescentes",
+      "unidad": "casos por cada 100,000 habitantes NNA",
+      "serie": [
+        {
+          "anio": 2018,
+          "valor": 35.1,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-sitan-2026",
+          "fuente": "UNICEF México / SIPINNA, Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+          "url": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Fuente primaria: INEGI, Censo Nacional de Procuración de Justicia Estatal (CNPJE). Tasa nacional promedio; el informe también desagrega por sexo y grupo de edad, mostrando un incremento generalizado en todos los subgrupos entre 2018 y 2023.",
+          "es_demostracion": false
+        },
+        {
+          "anio": 2023,
+          "valor": 77.9,
+          "territorio": "Nacional",
+          "grupo_poblacional": "Niñas, niños y adolescentes (0-17 años)",
+          "fuente_id": "fte-unicef-sitan-2026",
+          "fuente": "UNICEF México / SIPINNA, Análisis de la situación de la niñez y adolescencia en México (SITAN 2026)",
+          "url": "https://www.unicef.org/mexico/media/10121/file/analisis-situacion-ninez-adolescencia-mexico-unicef.pdf.pdf",
+          "fecha_consulta": "2026-09-22",
+          "estado_validacion": "validado",
+          "notas_metodologicas": "Fuente primaria: INEGI, CNPJE. El informe advierte que parte del incremento puede relacionarse con un fortalecimiento de los sistemas de detección, denuncia y atención institucional, no únicamente con un aumento real de la violencia.",
+          "es_demostracion": false
+        }
+      ]
+    }
+  ],
+  "relaciones_inversion_indicador": [
+    {
+      "id": "rel-1",
+      "indicador_id": "ind-pobreza-infantil",
+      "texto_conclusion": "Entre 2022 y 2024 la pobreza multidimensional en NNA bajó de 45.8% a 38.7% (INEGI/CONEVAL), en un periodo en el que la inversión nominal en NNA también aumentó (de 831,100 a 979,200 millones de pesos entre 2022 y 2024, ver Panorama de la inversión). Esta es una observación puramente descriptiva: ambas series se movieron en paralelo, pero este micrositio no cuenta con un análisis estadístico que permita afirmar que una causó a la otra, ni que la relación sea de asociación en sentido estricto (la pobreza depende de muchos otros factores: empleo, inflación, transferencias no etiquetadas para NNA, etc.).",
+      "etiqueta_evidencia": "descriptiva",
+      "fuente_id": null,
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "rel-2",
+      "indicador_id": "ind-carencia-salud",
+      "texto_conclusion": "La carencia de acceso a servicios de salud en NNA subió de 27.5% (2020) a 42.3% (2022) y bajó a 35.7% (2024). REDIM y UNICEF documentan por separado que, en ese mismo periodo, el gasto en salud etiquetado para NNA no ha seguido la misma tendencia (por ejemplo, el programa de vacunación tuvo una caída de -53.7% entre 2022 y 2023, ver Programas presupuestarios). No se afirma una relación causal ni de asociación estadística entre ambas series; se documentan simplemente como dos hechos observados en paralelo, pendientes de un análisis que las relacione formalmente.",
+      "etiqueta_evidencia": "descriptiva",
+      "fuente_id": null,
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "rel-3",
+      "indicador_id": "ind-rezago-educativo",
+      "texto_conclusion": "El rezago educativo en NNA alcanzó su mínimo histórico en 2014 (8%) y volvió a subir hasta 10.2%-10.6% en 2022-2024, superando el nivel de 2008. UNICEF México atribuye este repunte principalmente al cierre prolongado de escuelas durante la pandemia de COVID-19, no a la inversión educativa etiquetada para NNA en sí. Por eso esta observación se etiqueta como hipótesis (explicación plausible planteada por la fuente) y no como evidencia causal: no se ha evaluado aquí con datos propios si existe una relación entre el gasto educativo y el rezago.",
+      "etiqueta_evidencia": "hipotesis",
+      "fuente_id": null,
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    }
+  ]
+}

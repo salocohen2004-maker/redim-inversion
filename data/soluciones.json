@@ -1,0 +1,72 @@
+{
+  "es_demostracion": false,
+  "nota": "Las recomendaciones de este archivo son propuestas elaboradas a partir de los problemas y la evidencia real documentados en la sección 'Problemas y brechas' (ver data/problemas.json) y de estándares internacionales citados por fuentes reales (ver data/fuentes.json). No son recomendaciones formales adoptadas por REDIM: son una propuesta de este micrositio, derivada del análisis de los datos disponibles, pendiente de la revisión y validación del equipo de REDIM antes de presentarse como posición institucional.",
+  "soluciones": [
+    {
+      "id": "sol-1",
+      "recomendacion": "Establecer, en el proceso de aprobación del Presupuesto de Egresos de la Federación, un mecanismo que evite que el Anexo Transversal 18 pierda peso respecto al PIB y al gasto total de un año a otro; por ejemplo, actualizando anualmente los montos etiquetados para NNA al menos en línea con la inflación proyectada por la propia SHCP.",
+      "problema_id": "prob-recortes-reales",
+      "institucion_responsable": "Secretaría de Hacienda y Crédito Público (SHCP) y Cámara de Diputados (Comisión de Presupuesto y Cuenta Pública), en el proceso de aprobación del Presupuesto de Egresos de la Federación.",
+      "plazo_sugerido": "A partir del siguiente ciclo de aprobación del Presupuesto de Egresos de la Federación.",
+      "indicador_seguimiento": "% del PIB y % del Presupuesto de Egresos de la Federación destinado a NNA (ver Panorama de la inversión); variación real anual del Anexo Transversal 18.",
+      "nivel_evidencia": "hipotesis",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "sol-2",
+      "recomendacion": "Publicar y dar seguimiento a la distribución de los recursos etiquetados para NNA por entidad federativa en términos per cápita (monto por NNA de cada estado), no solo en participación porcentual del total nacional, para identificar y corregir posibles brechas territoriales en la inversión.",
+      "problema_id": "prob-desigualdad-territorial",
+      "institucion_responsable": "Secretaría de Hacienda y Crédito Público (SHCP), en coordinación con las secretarías de finanzas de las entidades federativas.",
+      "plazo_sugerido": "Mediano plazo (próximos 2 a 3 ciclos presupuestarios).",
+      "indicador_seguimiento": "Inversión en NNA per cápita por entidad federativa (monto etiquetado del Ramo 33 y otros ramos, dividido entre la población de NNA de cada estado).",
+      "nivel_evidencia": "hipotesis",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "sol-3",
+      "recomendacion": "Diferenciar con mayor claridad, dentro del Anexo Transversal 18, los recursos destinados a nómina educativa (FONE) de los destinados a infraestructura, materiales y calidad educativa, para dar seguimiento por separado a ambos tipos de gasto y evitar que una caída en el segundo se oculte detrás del crecimiento del primero.",
+      "problema_id": "prob-concentracion-gasto",
+      "institucion_responsable": "Secretaría de Educación Pública (SEP) y Secretaría de Hacienda y Crédito Público (SHCP).",
+      "plazo_sugerido": "A partir del siguiente ciclo de aprobación del Presupuesto de Egresos de la Federación.",
+      "indicador_seguimiento": "% del gasto educativo etiquetado para NNA que corresponde al FONE, frente al % que corresponde a infraestructura, materiales y programas de calidad educativa.",
+      "nivel_evidencia": "hipotesis",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "sol-4",
+      "recomendacion": "Homogeneizar y actualizar anualmente la metodología para identificar y etiquetar los recursos destinados a NNA en todas las dependencias, incluyendo aquellas (como SEDENA y SEMAR) cuyos programas dirigidos a la primera infancia actualmente no son distinguibles dentro del Anexo Transversal 18.",
+      "problema_id": "prob-falta-informacion",
+      "institucion_responsable": "Secretaría de Hacienda y Crédito Público (SHCP), con la colaboración de todas las dependencias que ejercen recursos del Anexo Transversal 18.",
+      "plazo_sugerido": "Mediano plazo (próximos 2 a 3 ciclos presupuestarios).",
+      "indicador_seguimiento": "Número de dependencias con metodología de etiquetado homogénea y datos de beneficiarios NNA publicados de forma desagregada y actualizada.",
+      "nivel_evidencia": "hipotesis",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "sol-5",
+      "recomendacion": "Fortalecer al Sistema Nacional de Protección Integral de Niñas, Niños y Adolescentes (SIPINNA) como instancia de coordinación entre las dependencias que participan en salud y protección social para NNA, para reducir la duplicidad y las discontinuidades que se observan cuando un programa transita de una institución a otra (como ocurrió del Seguro Popular al INSABI y de éste a IMSS-Bienestar).",
+      "problema_id": "prob-fragmentacion-institucional",
+      "institucion_responsable": "Sistema Nacional de Protección Integral de Niñas, Niños y Adolescentes (SIPINNA) y Secretaría de Gobernación (SEGOB).",
+      "plazo_sugerido": "Mediano a largo plazo.",
+      "indicador_seguimiento": "Presupuesto asignado al programa de Coordinación con las instancias que integran el SIPINNA (P025, ver Programas presupuestarios) y continuidad presupuestaria de los programas de salud y protección social para NNA entre transiciones institucionales.",
+      "nivel_evidencia": "hipotesis",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "sol-6",
+      "recomendacion": "Incrementar de forma gradual y sostenida la inversión pública específica en primera infancia hacia la meta de 1.16% del PIB recomendada por ONU Mujeres, UNICEF y CEPAL, priorizando servicios de cuidado, salud y desarrollo infantil temprano de calidad.",
+      "problema_id": "prob-insuficiencia-primera-infancia",
+      "institucion_responsable": "Secretaría de Hacienda y Crédito Público (SHCP) y Cámara de Diputados, en coordinación con las dependencias que operan servicios de primera infancia (Secretaría de Bienestar, Secretaría de Salud, Secretaría de Educación Pública).",
+      "plazo_sugerido": "Incremento gradual en un plazo de 5 años, siguiendo la propuesta de implementación de los organismos internacionales que plantean esta meta.",
+      "indicador_seguimiento": "% del PIB destinado específicamente a primera infancia (0-5 años), frente a la meta de 1.16% del PIB.",
+      "nivel_evidencia": "asociacion",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    }
+  ]
+}

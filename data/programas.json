@@ -1,0 +1,630 @@
+{
+  "es_demostracion": false,
+  "nota": "Los programas de este archivo son reales, tomados de las Tablas 1 a 4 del informe 'Análisis de la inversión pública en infancia y adolescencia en México 2012-2023' de UNICEF México (ver fte-unicef-2023 en data/fuentes.json), que a su vez las elaboró con información de la SHCP y el PEF/Anexo Transversal 18. Se incluyeron los años con la variación más relevante o documentada de cada programa, no la serie completa año por año.",
+  "programas": [
+    {
+      "id": "prog-vacunacion-22",
+      "nombre": "Programa de vacunación",
+      "ramo_institucion": "Secretaría de Salud (SSA)",
+      "anio": 2022,
+      "presupuesto_nominal": {
+        "valor": 12108,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación nominal anual"
+      },
+      "derecho_id": "salud",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Incluye, además de los esquemas básicos de vacunación por grupo etario, las vacunas para COVID-19, lo que explica el salto atípico este año.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-vacunacion-23",
+      "nombre": "Programa de vacunación",
+      "ramo_institucion": "Secretaría de Salud (SSA)",
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 5602,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": -53.7,
+        "unidad": "% variación nominal anual"
+      },
+      "derecho_id": "salud",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-salud-materna-22",
+      "nombre": "Salud materna, sexual y reproductiva",
+      "ramo_institucion": "Secretaría de Salud (SSA)",
+      "anio": 2022,
+      "presupuesto_nominal": {
+        "valor": 1891,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación nominal anual"
+      },
+      "derecho_id": "salud",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-salud-materna-23",
+      "nombre": "Salud materna, sexual y reproductiva",
+      "ramo_institucion": "Secretaría de Salud (SSA)",
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 1217,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": -35.7,
+        "unidad": "% variación nominal anual"
+      },
+      "derecho_id": "salud",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-obesidad-22",
+      "nombre": "Prevención y Control de Sobrepeso, Obesidad y Diabetes",
+      "ramo_institucion": "Secretaría de Salud (SSA)",
+      "anio": 2022,
+      "presupuesto_nominal": {
+        "valor": 329,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación nominal anual"
+      },
+      "derecho_id": "salud",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-obesidad-23",
+      "nombre": "Prevención y Control de Sobrepeso, Obesidad y Diabetes",
+      "ramo_institucion": "Secretaría de Salud (SSA)",
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 195,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": -40.5,
+        "unidad": "% variación nominal anual"
+      },
+      "derecho_id": "salud",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-prospera-18",
+      "nombre": "PROSPERA Programa de Inclusión Social (S072)",
+      "ramo_institucion": "Secretaría de Bienestar",
+      "anio": 2018,
+      "presupuesto_nominal": {
+        "valor": 45052,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación nominal anual"
+      },
+      "derecho_id": "proteccion_social",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Programa sustituido a partir de 2019 por el esquema de Becas Benito Juárez; su componente alimentario dirigido a NNA no fue reintegrado presupuestalmente en el programa sucesor.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-prospera-19",
+      "nombre": "PROSPERA Programa de Inclusión Social (S072)",
+      "ramo_institucion": "Secretaría de Bienestar",
+      "anio": 2019,
+      "presupuesto_nominal": {
+        "valor": 17774,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": -60.5,
+        "unidad": "% variación nominal anual"
+      },
+      "derecho_id": "proteccion_social",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Último año con presupuesto etiquetado en el ATNNA antes de su sustitución.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-estancias-18",
+      "nombre": "Programa de Apoyo para el Bienestar de las Niñas y Niños, Hijos de Madres Trabajadoras (S174, antes Estancias Infantiles)",
+      "ramo_institucion": "Secretaría de Bienestar",
+      "anio": 2018,
+      "presupuesto_nominal": {
+        "valor": 3713,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación acumulada nominal 2018-2023"
+      },
+      "derecho_id": "proteccion_social",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "2018 es el último año del antiguo Programa de Estancias Infantiles antes de su rediseño en 2019.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-estancias-23",
+      "nombre": "Programa de Apoyo para el Bienestar de las Niñas y Niños, Hijos de Madres Trabajadoras (S174)",
+      "ramo_institucion": "Secretaría de Bienestar",
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 2663,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": -28.3,
+        "unidad": "% variación acumulada nominal 2018-2023"
+      },
+      "derecho_id": "proteccion_social",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-liconsa-abasto-16",
+      "nombre": "Programa de Abasto Social de Leche (S052), LICONSA",
+      "ramo_institucion": "Secretaría de Bienestar / LICONSA",
+      "anio": 2016,
+      "presupuesto_nominal": {
+        "valor": 748,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación acumulada nominal 2016-2018"
+      },
+      "derecho_id": "alimentacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Programa discontinuado (deja de tener presupuesto etiquetado en el ATNNA) a partir de 2019.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-liconsa-abasto-18",
+      "nombre": "Programa de Abasto Social de Leche (S052), LICONSA",
+      "ramo_institucion": "Secretaría de Bienestar / LICONSA",
+      "anio": 2018,
+      "presupuesto_nominal": {
+        "valor": 1249,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": 67.0,
+        "unidad": "% variación acumulada nominal 2016-2018"
+      },
+      "derecho_id": "alimentacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-apoyo-alimentario-12",
+      "nombre": "Programa de Apoyo Alimentario (S118)",
+      "ramo_institucion": "Secretaría de Bienestar",
+      "anio": 2012,
+      "presupuesto_nominal": {
+        "valor": 3581,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación acumulada nominal 2012-2015"
+      },
+      "derecho_id": "alimentacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Programa discontinuado (sin presupuesto etiquetado en el ATNNA) a partir de 2016.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-apoyo-alimentario-15",
+      "nombre": "Programa de Apoyo Alimentario (S118)",
+      "ramo_institucion": "Secretaría de Bienestar",
+      "anio": 2015,
+      "presupuesto_nominal": {
+        "valor": 4664,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": 30.3,
+        "unidad": "% variación acumulada nominal 2012-2015"
+      },
+      "derecho_id": "alimentacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-restitucion-derechos-16",
+      "nombre": "Protección y restitución de los derechos de las niñas, niños y adolescentes (E041)",
+      "ramo_institucion": "Sistema Nacional para el Desarrollo Integral de la Familia (SNDIF)",
+      "anio": 2016,
+      "presupuesto_nominal": {
+        "valor": 120,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación acumulada nominal 2016-2023"
+      },
+      "derecho_id": "interes_superior",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Financia la operación de la Procuraduría Federal de Protección de NNA y las procuradurías estatales. UNICEF estimó en 2018 que el presupuesto óptimo para operar las procuradurías estatales sería de 2,487 mdp, 25 veces el presupuesto de 2023.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-restitucion-derechos-23",
+      "nombre": "Protección y restitución de los derechos de las niñas, niños y adolescentes (E041)",
+      "ramo_institucion": "Sistema Nacional para el Desarrollo Integral de la Familia (SNDIF)",
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 99,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": -17.5,
+        "unidad": "% variación acumulada nominal 2016-2023"
+      },
+      "derecho_id": "interes_superior",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-discapacidad-18",
+      "nombre": "Programa de Atención a Personas con Discapacidad (S039), porción NNA",
+      "ramo_institucion": "Sistema Nacional para el Desarrollo Integral de la Familia (SNDIF)",
+      "anio": 2018,
+      "presupuesto_nominal": {
+        "valor": 32,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación acumulada nominal 2018-2023"
+      },
+      "derecho_id": "no_discriminacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-discapacidad-23",
+      "nombre": "Programa de Atención a Personas con Discapacidad (S039), porción NNA",
+      "ramo_institucion": "Sistema Nacional para el Desarrollo Integral de la Familia (SNDIF)",
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 6,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": -81.3,
+        "unidad": "% variación acumulada nominal 2018-2023"
+      },
+      "derecho_id": "no_discriminacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-fam-infraestructura-12",
+      "nombre": "FAM Infraestructura Educativa (4 programas del Ramo 33)",
+      "ramo_institucion": "Ramo 33 / Secretaría de Educación Pública (SEP)",
+      "anio": 2012,
+      "presupuesto_nominal": {
+        "valor": 6444,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación acumulada nominal 2012-2023"
+      },
+      "derecho_id": "educacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Suma de los 4 programas de infraestructura educativa del Fondo de Aportaciones Múltiples (FAM) que UNICEF reporta de forma agregada, no programa por programa.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-fam-infraestructura-23",
+      "nombre": "FAM Infraestructura Educativa (4 programas del Ramo 33)",
+      "ramo_institucion": "Ramo 33 / Secretaría de Educación Pública (SEP)",
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 13329,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": 106.8,
+        "unidad": "% variación acumulada nominal 2012-2023"
+      },
+      "derecho_id": "educacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-escuela-tiempo-completo-16",
+      "nombre": "Escuelas de Tiempo Completo (transición a La Escuela es Nuestra)",
+      "ramo_institucion": "Secretaría de Educación Pública (SEP)",
+      "anio": 2016,
+      "presupuesto_nominal": {
+        "valor": 11061,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación acumulada nominal 2016-2023"
+      },
+      "derecho_id": "educacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "El programa Escuelas de Tiempo Completo transitó a La Escuela es Nuestra; UNICEF reporta la cifra nominal acumulada de ambos como continuidad del mismo tipo de gasto. UNICEF reporta un incremento de +75% en términos reales para el mismo periodo (cifra distinta a la variación nominal aquí mostrada).",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-escuela-tiempo-completo-23",
+      "nombre": "La Escuela es Nuestra (antes Escuelas de Tiempo Completo)",
+      "ramo_institucion": "Secretaría de Educación Pública (SEP)",
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 27053,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": 144.5,
+        "unidad": "% variación acumulada nominal 2016-2023"
+      },
+      "derecho_id": "educacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-sipinna-19",
+      "nombre": "Coordinación con las instancias que integran el Sistema Nacional de Protección Integral de NNA (P025)",
+      "ramo_institucion": "Secretaría de Gobernación (SEGOB)",
+      "anio": 2019,
+      "presupuesto_nominal": {
+        "valor": 52.4,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación acumulada nominal 2019-2023"
+      },
+      "derecho_id": "interes_superior",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-sipinna-23",
+      "nombre": "Coordinación con las instancias que integran el Sistema Nacional de Protección Integral de NNA (P025)",
+      "ramo_institucion": "Secretaría de Gobernación (SEGOB)",
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 73.4,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": 40.1,
+        "unidad": "% variación acumulada nominal 2019-2023"
+      },
+      "derecho_id": "interes_superior",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-discriminacion-19",
+      "nombre": "Promover la Protección de los Derechos Humanos y Prevenir la Discriminación (P024)",
+      "ramo_institucion": "Secretaría de Gobernación (SEGOB)",
+      "anio": 2019,
+      "presupuesto_nominal": {
+        "valor": 6.7,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": null,
+        "unidad": "% variación acumulada nominal 2019-2023"
+      },
+      "derecho_id": "no_discriminacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    },
+    {
+      "id": "prog-discriminacion-23",
+      "nombre": "Promover la Protección de los Derechos Humanos y Prevenir la Discriminación (P024)",
+      "ramo_institucion": "Secretaría de Gobernación (SEGOB)",
+      "anio": 2023,
+      "presupuesto_nominal": {
+        "valor": 40.8,
+        "unidad": "millones de pesos (MXN)"
+      },
+      "presupuesto_real": {
+        "valor": null,
+        "unidad": "millones de pesos (MXN, precios constantes)"
+      },
+      "variacion_pct": {
+        "valor": 509.0,
+        "unidad": "% variación acumulada nominal 2019-2023"
+      },
+      "derecho_id": "no_discriminacion",
+      "fuente_id": "fte-unicef-2023",
+      "fuente": "UNICEF México, Análisis de la inversión pública en infancia y adolescencia en México 2012-2023",
+      "advertencias_metodologicas": "Cifra real tomada de la Tabla del informe de UNICEF México (elaborada con datos de la SHCP / PEF-ATNNA); no hay presupuesto real (deflactado) disponible en la fuente, solo nominal.",
+      "estado_validacion": "validado",
+      "es_demostracion": false
+    }
+  ]
+}

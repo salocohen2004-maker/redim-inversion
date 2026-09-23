@@ -1,0 +1,98 @@
+{
+  "es_demostracion": false,
+  "nota": "Estas son definiciones conceptuales generales, no cifras. Se incluyen como parte del contenido estructural del sitio; deben revisarse por el equipo de REDIM para asegurar precisión técnica y consistencia con su propio glosario institucional.",
+  "terminos": [
+    {
+      "termino": "PIB (Producto Interno Bruto)",
+      "definicion": "Valor total de los bienes y servicios producidos en un país durante un periodo determinado. Se usa como referencia para dimensionar el tamaño de la inversión pública en relación con el tamaño de la economía."
+    },
+    {
+      "termino": "Presupuesto aprobado",
+      "definicion": "Monto que el Congreso autoriza para un programa, dependencia o rubro al inicio del ejercicio fiscal, antes de cualquier ajuste posterior."
+    },
+    {
+      "termino": "Presupuesto modificado",
+      "definicion": "Monto resultante de aplicar ajustes (ampliaciones o reducciones) al presupuesto aprobado durante el ejercicio fiscal."
+    },
+    {
+      "termino": "Presupuesto ejercido",
+      "definicion": "Monto que efectivamente se gastó durante el ejercicio fiscal, una vez concluido el periodo correspondiente."
+    },
+    {
+      "termino": "Inflación",
+      "definicion": "Aumento generalizado y sostenido de los precios de bienes y servicios en una economía a lo largo del tiempo, que reduce el poder adquisitivo de una cantidad fija de dinero."
+    },
+    {
+      "termino": "Inversión per cápita",
+      "definicion": "Monto de inversión dividido entre el número de personas de la población de referencia (en este caso, niñas, niños y adolescentes), usado para comparar la inversión de forma proporcional a la población."
+    },
+    {
+      "termino": "Anexo transversal",
+      "definicion": "Apartado del Presupuesto de Egresos de la Federación que agrupa e identifica los recursos destinados a una población o tema específico (como la niñez y la adolescencia) que se ejercen a través de distintos programas y dependencias."
+    },
+    {
+      "termino": "Derechos de niñas, niños y adolescentes",
+      "definicion": "Conjunto de derechos humanos reconocidos específicamente a personas menores de 18 años en la Constitución, la Ley General de Derechos de Niñas, Niños y Adolescentes (LGDNNA) y tratados internacionales como la Convención sobre los Derechos del Niño, cuyos cuatro principios generales son no discriminación, interés superior de la niñez, derecho a la vida/supervivencia/desarrollo, y participación (ver la sección Derechos)."
+    },
+    {
+      "termino": "Presupuesto nominal",
+      "definicion": "Monto expresado en los precios vigentes del año en que se registra, sin ajustar por inflación."
+    },
+    {
+      "termino": "Presupuesto real",
+      "definicion": "Monto ajustado por inflación para poder compararlo de manera equivalente entre distintos años, generalmente expresado a precios de un año base."
+    },
+    {
+      "termino": "PEF (Presupuesto de Egresos de la Federación)",
+      "definicion": "Decreto que aprueba la Cámara de Diputados cada año, y que autoriza el gasto del gobierno federal mexicano para el ejercicio fiscal correspondiente."
+    },
+    {
+      "termino": "Anexo Transversal 18 / ATNNA",
+      "definicion": "Apartado del PEF, vigente desde 2012, llamado 'Recursos para la Atención de Niñas, Niños y Adolescentes'. Identifica los recursos que distintas dependencias federales etiquetan específicamente para NNA; es la fuente base de casi todas las cifras presupuestarias de este micrositio."
+    },
+    {
+      "termino": "FONE (Fondo de Aportaciones para la Nómina Educativa y Gasto Operativo)",
+      "definicion": "Fondo del Ramo 33 del PEF que transfiere recursos a los estados, principalmente para pagar la nómina de maestros de educación básica. Concentra la mayor parte del gasto educativo etiquetado para NNA (ver 'Problemas y brechas')."
+    },
+    {
+      "termino": "SHCP (Secretaría de Hacienda y Crédito Público)",
+      "definicion": "Dependencia del gobierno federal mexicano encargada de proponer y ejecutar la política de ingresos y gasto público, incluyendo la elaboración del Presupuesto de Egresos de la Federación."
+    },
+    {
+      "termino": "DOF (Diario Oficial de la Federación)",
+      "definicion": "Publicación oficial del gobierno mexicano donde se difunden leyes, decretos y otros actos, incluyendo el PEF de cada año, para que entren en vigor."
+    },
+    {
+      "termino": "INEGI (Instituto Nacional de Estadística y Geografía)",
+      "definicion": "Organismo público autónomo encargado de generar la información estadística y geográfica oficial de México, incluyendo el PIB, la inflación (INPC) y las encuestas de pobreza e ingresos (ENIGH) usadas en este micrositio."
+    },
+    {
+      "termino": "CONEVAL (Consejo Nacional de Evaluación de la Política de Desarrollo Social)",
+      "definicion": "Organismo encargado de medir la pobreza en México y evaluar la política de desarrollo social, con base en información del INEGI. Es la fuente metodológica de las cifras de pobreza multidimensional y carencias sociales de este micrositio."
+    },
+    {
+      "termino": "ENIGH (Encuesta Nacional de Ingresos y Gastos de los Hogares)",
+      "definicion": "Encuesta del INEGI, realizada cada dos años, que mide los ingresos y gastos de los hogares mexicanos. Es la base con la que CONEVAL calcula la pobreza multidimensional."
+    },
+    {
+      "termino": "ENSANUT (Encuesta Nacional de Salud y Nutrición)",
+      "definicion": "Encuesta de la Secretaría de Salud que mide indicadores de salud y nutrición de la población mexicana, como sobrepeso, obesidad y cobertura de vacunación."
+    },
+    {
+      "termino": "SESNSP (Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública)",
+      "definicion": "Órgano que publica la Incidencia Delictiva del Fuero Común, la principal fuente oficial de cifras sobre homicidios y otros delitos en México, incluyendo aquellos cometidos contra niñas, niños y adolescentes."
+    },
+    {
+      "termino": "SIPINNA (Sistema Nacional de Protección Integral de Niñas, Niños y Adolescentes)",
+      "definicion": "Instancia del Estado mexicano encargada de coordinar a las más de 50 dependencias y entidades federales que participan en la política pública de niñez y adolescencia, mandatada por la LGDNNA."
+    },
+    {
+      "termino": "LGDNNA (Ley General de los Derechos de Niñas, Niños y Adolescentes)",
+      "definicion": "Ley mexicana, publicada en 2014, que reconoce a niñas, niños y adolescentes como titulares de derechos y establece la obligación del Estado de etiquetar y hacer público el presupuesto destinado a su atención."
+    },
+    {
+      "termino": "SITAN (Análisis de la Situación de la Niñez y la Adolescencia)",
+      "definicion": "Tipo de informe que UNICEF elabora periódicamente, junto con contrapartes nacionales (en México, el SIPINNA), para analizar de forma integral la situación de los derechos de la niñez en un país."
+    }
+  ]
+}
